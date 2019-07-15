@@ -1,0 +1,156 @@
+.header{
+	width: 100%;
+	height: 70px;
+	background: white;
+	position: fixed;
+}
+.logo h1{
+	float:left;
+}
+.logo h1 a{
+	background: url("../img/title.png"); 
+	display: block;
+	text-decoration: none;
+	height: 70px;
+	width: 200px;
+	/*Tips:隱藏h1文字，但仍保留h1欄位*/
+	text-indent: 101%;
+	overflow: hidden;
+	white-space: nowrap;
+	margin-left: 20px;
+}
+.menu{
+	display: none;
+}
+#menu{
+	display: none;
+}
+.topmenu ul{
+	padding: 25px;
+	float:right;
+	width: 500px;
+}
+.topmenu li a{
+	float:left;
+	width: 100px;
+	height: 42px;
+	color:black;
+	text-decoration: none;
+	text-align: center;
+}
+.topmenu li a:hover{
+	border-bottom: 3px grey solid;
+}
+.here{
+	border-bottom: 3px grey solid;
+}
+.headerclear{
+	height: 70px;
+}
+.banner {
+	width: 100%;
+	height: 520px;
+	background: url("../img/banner.png");
+}
+.content{
+	text-align: justify;
+}
+.intro{
+	padding: 0px 70px 0px 70px;
+}
+.intro h2{
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 30px;
+}
+.intro p{
+	padding: 25px;
+}
+#intro{
+	height: 70px;
+}
+#team{
+	height: 70px;
+}
+#curation{
+	height: 70px;
+	background: #EEEEEE;
+}
+#feedback{
+	height: 70px;
+}
+#sponsor{
+	height: 70px;
+	background: #EEEEEE;
+}
+.content1{
+	background: #EEEEEE;
+	height: 450px;
+}
+.content1 h2{
+	text-align: center;
+	margin-bottom: 30px;
+	padding-top: 30px;
+	font-size: 24px;
+	font-weight: bold;
+}
+.content2{
+	height: 450px;
+}
+.content2 h2{
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	font-size: 24px;
+	font-weight: bold;
+}
+.clearfix{
+	clear:both;
+	padding: 10px;
+}
+.footer{
+	height: 50px;
+	background: #EEEEEE;
+	padding: 5px;
+}
+.footer p{
+	text-align: center;
+	padding: 17px;
+}
+
+/*響應式網頁設定*/
+@media(max-width: 900px)  {
+	.header{
+		background-color: white;
+	}
+	.logo h1 a{
+	margin-left: 0px;
+	}
+	.menu{
+		display: block;
+		float:right;
+		width: 50px;
+		padding-top:18px;
+	}
+	.menu i{
+		font-size: 36px;
+	}
+	.menu a{
+		color: black;
+	}
+	.menu a:hover{
+		color: grey;
+	}
+	#menu{
+		width: 100%;
+		height: 300px;
+		background: white;
+	}
+	.header ul{
+		display: none;
+	}
+}
+@media(max-width: 600px)  {
+
+}

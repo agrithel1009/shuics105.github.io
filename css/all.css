@@ -1,0 +1,215 @@
+.header{
+	width: 100%;
+	height: 70px;
+	background: white;
+	position: fixed;
+}
+.logo h1{
+	float:left;
+}
+.logo h1 a{
+	background: url("../img/title.png"); 
+	display: block;
+	text-decoration: none;
+	height: 70px;
+	width: 200px;
+	/*Tips:隱藏h1文字，但仍保留h1欄位*/
+	text-indent: 101%;
+	overflow: hidden;
+	white-space: nowrap;
+	margin-left: 20px;
+}
+.menu{
+	display: none;
+}
+#menu{
+	display: none;
+}
+.topmenu ul{
+	padding: 25px;
+	float:right;
+	width: 500px;
+}
+.topmenu li a{
+	float:left;
+	width: 100px;
+	height: 42px;
+	color:black;
+	text-decoration: none;
+	text-align: center;
+}
+.topmenu li a:hover{
+	border-bottom: 3px grey solid;
+}
+.here{
+	border-bottom: 3px grey solid;
+}
+.headerclear{
+	height: 70px;
+}
+.banner {
+	width: 100%;
+	height: 330px;
+	background: url("../img/banner.png");
+}
+.content{
+	text-align: justify;
+}
+
+.intro{
+	padding: 1px 70px 70px 70px;
+}
+.intro h2{
+	text-align: left;
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	margin-top: 60px;
+}
+.intro p{
+	padding: 25px;
+}
+.team{
+	background: pink;
+}
+.team h2{
+	text-align: center;
+	margin-bottom: 30px;
+	padding-top: 30px;
+	font-size: 24px;
+	font-weight: bold;
+}
+.team p{
+	width: 255px;
+	height: 50px;	
+	text-align: center;
+	box-shadow: 0px 0px 4px gray;
+	margin: 10px auto;
+	background: white;
+}
+.team p a{
+	text-decoration: none;
+}
+.team ul {
+	width: 885px;
+	height: 400px;
+	margin:auto;
+
+}
+.team li a{
+	float:left;
+	width: 255px;
+	height: 50px;
+	text-decoration: none;
+	text-align: center;
+	box-shadow: 0px 0px 4px gray;
+	margin:20px;
+	background: white;
+}
+.team li a:hover{
+	background: orange;
+}
+.sponsor ul{
+	width: 760px;
+	margin:auto;
+}
+.sponsor h2{
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 30px;
+	font-size: 24px;
+	font-weight: bold;
+}
+.sponsor li a{
+	float:left;
+	width: 150px;
+	height: 150px;
+	text-decoration: none;
+	text-align: center;
+	box-shadow: 0px 0px 4px gray;
+	margin:20px;
+	background: white;
+}
+.sponsor li a:hover{
+	background: orange;
+}
+.clearfix{
+	clear:both;
+	padding: 10px;
+}
+.footer{
+	height: 50px;
+	background: pink;
+	padding: 5px;
+}
+.footer p{
+	text-align: center;
+	padding: 17px;
+}
+
+/*響應式網頁設定*/
+@media(max-width: 900px)  {
+	.header{
+		background-color: white;
+	}
+	.logo h1 a{
+	margin-left: 0px;
+	}
+	.menu{
+		display: block;
+		float:right;
+		width: 50px;
+		padding-top:18px; 
+	}
+	.menu i{
+		font-size: 36px;
+	}
+	.menu a:hover{
+		color: orange;
+	}
+	#menu{
+		width: 100%;
+		height: 300px;
+		background: white;
+	}
+	.team ul {
+	width: 295px;
+	height: 1120px;
+	}
+	.team li a{
+	width: 255px;
+	height: 50px;
+	}
+	.sponsor ul {
+	width: 570px;
+	}
+	.sponsor li a{
+	width: 150px;
+	height: 150px;
+	}
+	.header ul{
+		display: none;
+	}
+}
+@media(max-width: 600px)  {
+	.header{
+		background-color: white;
+	}
+	.logo h1 a{
+	margin-left: 0px;
+	}
+	.team ul {
+	width: 295px;
+	}
+	.team li a{
+	width: 255px;
+	height: 50px;
+	}
+	.sponsor ul {
+	width: 380px;
+	}
+	.sponsor li a{
+	width: 150px;
+	height: 150px;
+	}
+}
