@@ -24,12 +24,12 @@
  
     <!--CSS-->
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/all4.css">
+    <link rel="stylesheet" href="css/all.css">
     <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
 
     <!--JavaScript-->
     <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/all4.js"></script>
+    <script src="js/all.js"></script>
 </head>
 <body>
 <div class="wrap">
@@ -60,8 +60,8 @@
         </div>
         <div class="menuclear"></div>
         <div class="fan">
-            <a href="#"><i class='fab fa-facebook-square' style="width: 30px;"></i></a>
-            <a href="#"><i class='fab fa-instagram' style="width: 30px;"></i></a>
+            <a href="#"><i class='fab fa-facebook-square'></i></a>
+            <a href="#"><i class='fab fa-instagram'></i></a>
         </div>                 
         <div class="topfooter">
             <p>｜世新資傳105級畢業展覽｜</p>
@@ -69,7 +69,7 @@
     </div>        
     <div class="content">
         <div id="welcome"></div>
-        <div class="banner">
+        <div class="content1">
         </div>
         <div id="intro"></div>
         <div class="intro">
@@ -81,51 +81,67 @@
         <div id="team"></div>
         <div class="content1">
         <h2>專題介紹</h2>
-        <ul class="curator">
+        <div class="team-menu">
+            <ul class="curator">
             <a href="#">
             <img class="curator1" src="img/wizard.png" style="width: 100px; height: 100px;">
             <img class="curator2" src="img/magic.png" style="width: 100px; height: 100px;"></a>
             <li>
                 <a href="#">策展組</a>
-            </li>
-        
-        </ul>
-        
-        <ul class="topic-list">
-            <li>
-                <a href="#" class="scarecrow">
-                <img class="scarecrow1" src="img/scarecrow.png" style="width: 100px; height: 100px;">
-                <img class="scarecrow2" src="img/brain.png" style="width: 100px; height: 100px;"></a>
-                <ul>
-                    <li><a href="#"><img src="img/team11.png" style="width: 100px; height: 70px;"><br/>即刻救援</a></li>
-                    <li><a href="#"><img src="img/team11.png" style="width: 100px; height: 70px;"><br/>樂血HBD</a></li><br/>
-                    <li><a href="#"><img src="img/team11.png" style="width: 100px; height: 70px;"><br/>FPG</a></li>
-                    <li><a href="#"><img src="img/team11.png" style="width: 100px; height: 70px;"><br/>FeetU</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="#" class="robot">
-                <img class="robot1" src="img/robot.png" style="width: 100px; height: 100px;">
-                <img class="robot2" src="img/heart.png" style="width: 100px; height: 100px;"></a>
-                <ul>
-                    <li><a href="#"><img src="img/team11.png" style="width: 100px; height: 70px;"><br/>Doit</a></li>
-                    <li><a href="#"><img src="img/team11.png" style="width: 100px; height: 70px;"><br/>坪茗區</a></li><br/>
-                    <li><a href="#"><img src="img/team11.png" style="width: 100px; height: 70px;"><br/>極簡</a></li>
-                    <li><a href="#"><img src="img/team11.png" style="width: 100px; height: 70px;"><br/>大腦先生</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="#" class="lion">
-                <img class="lion1" src="img/lion.png" style="width: 100px; height: 100px;">
-                <img class="lion2" src="img/strong.png" style="width: 100px; height: 100px;"></a>
-                <ul>
-                    <li><a href="#"><img src="img/team11.png" style="width: 100px; height: 70px;"><br/>匿名</a></li>
-                    <li><a href="#"><img src="img/team11.png" style="width: 100px; height: 70px;"><br/>拾蒂夫</a></li><br/>
-                    <li><a href="#"><img src="img/team11.png" style="width: 100px; height: 70px;"><br/>迷糜</a></li>
-                    <li><a href="#"><img src="img/team11.png" style="width: 100px; height: 70px;"><br/>末班</a></li>
-                </ul>
-            </li>
-        </ul>            
+            </li>        
+            </ul>        
+            <ul class="team-list">
+                <li>
+                    <a href="#" class="scarecrow">
+                    <img class="scarecrow1" src="img/scarecrow.png" style="width: 100px; height: 100px;">
+                    <img class="scarecrow2" src="img/brain.png" style="width: 100px; height: 100px;"></a>
+                    <ul>
+                        <li><a id="team4" href="#"><img src="img/team11.png" style="width: 100px; height: 70px;"><br/>即刻救援</a></li>
+                        <li><a id="team4"href="#"><img src="img/team11.png" style="width: 100px; height: 70px;"><br/>樂血HBD</a></li><br/>
+                        <li><a id="team4" href="#"><img src="img/team11.png" style="width: 100px; height: 70px;"><br/>FPG</a></li>
+                        <li><a id="team4" href="#"><img src="img/team11.png" style="width: 100px; height: 70px;"><br/>FeetU</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="robot">
+                    <img class="robot1" src="img/robot.png" style="width: 100px; height: 100px;">
+                    <img class="robot2" src="img/heart.png" style="width: 100px; height: 100px;"></a>
+                    <ul>
+                        <li><a id="team4" href="#"><img src="img/team11.png" style="width: 100px; height: 70px;"><br/>Doit</a></li>
+                        <li><a id="team4" href="#"><img src="img/team11.png" style="width: 100px; height: 70px;"><br/>坪茗區</a></li><br/>
+                        <li><a id="team4" href="#"><img src="img/team11.png" style="width: 100px; height: 70px;"><br/>極簡</a></li>
+                        <li><a id="team4" href="#"><img src="img/team11.png" style="width: 100px; height: 70px;"><br/>大腦先生</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="lion">
+                    <img class="lion1" src="img/lion.png" style="width: 100px; height: 100px;">
+                    <img class="lion2" src="img/strong.png" style="width: 100px; height: 100px;"></a>
+                    <ul>
+                        <li><a id="team4" href="#"><img src="img/team11.png" style="width: 100px; height: 70px;"><br/>匿名</a></li>
+                        <li><a id="team4" href="#"><img src="img/team11.png" style="width: 100px; height: 70px;"><br/>拾蒂夫</a></li><br/>
+                        <li><a id="team4" href="#"><img src="img/team11.png" style="width: 100px; height: 70px;"><br/>迷糜</a></li>
+                        <li><a id="team4" href="#"><img src="img/team11.png" style="width: 100px; height: 70px;"><br/>末班</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>        
+        <div class="team4_intro" style="display: none; margin-left: 70px;">
+            <img src="img/scarecrow.png" style="width: 52px; height: 52px; margin-right: 15px; display: inline;">
+            <h3 style="font-size: 32px; font-weight: bold; display: inline; position: relative; bottom: 13px;">即刻救援</h3>
+            <br/>            
+            <img src="img/team11.png" style="width: 350px; height: 200px; margin-top: 20px;">
+            <br/><br/>
+            <i class='fas fa-tv' style="font-size: 24px;"></i><a href="#" style="position: relative; bottom: 3px; left: 8px;">作品連結</a>
+            <i class='far fa-file-pdf' style="font-size: 28px; margin-left: 20px; position: relative; top: 2px;"></i><a href="#" style="position: relative; bottom: 3px; left: 8px;">企畫書連結</a><br/><br/>
+            <i class='fab fa-facebook-square' style="font-size: 32px;"></i><a href="#" style="position: relative; bottom: 6px; left: 8px;">粉絲專頁連結</a>
+            <i class='fab fa-instagram' style="font-size: 33px; margin-left: 20px; position: relative; top: 2px;"></i><a href="#" style="position: relative; bottom: 6px; left: 8px;">粉絲專頁連結</a>
+            <br/><br/><br/>
+            <div style="margin-bottom: 15px;"><p style="display: inline; font-weight: bold;">專案經理</p><p style="display: inline;"> 林宗庭</p><p style="display: inline; font-weight: bold; margin-left: 35px;">行銷公關</p><p style="display: inline;"> 莊桓郡</p></div>
+            <div style="margin-bottom: 15px;"><p style="display: inline; font-weight: bold;">程式設計</p><p style="display: inline;"> 周育柔</p><p style="display: inline; font-weight: bold; margin-left: 35px;">程式設計</p><p style="display: inline;"> 李宗倫</p></div>
+            <div style="margin-bottom: 15px;"><p style="display: inline; font-weight: bold;">視覺設計</p><p style="display: inline;"> 黃于娟</p><p style="display: inline; font-weight: bold; margin-left: 35px;">影像設計</p><p style="display: inline;"> 陳彥宏</p></div>            
+            <a class="back" href="#"><img src="img/back.png" style="width: 20px; height: 20px;"></a>
+        </div>            
         </div>
         <div id="curation"></div>
         <div class="content2">
