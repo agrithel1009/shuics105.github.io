@@ -141,7 +141,8 @@ a:hover{
 	display: none;
 }
 
-/*響應式網頁設定*/
+/*--------------------------------------------響應式網頁設定--------------------------------------------*/
+
 @media(max-width: 900px)  {
 .header{
 	width: 100%;
@@ -195,30 +196,13 @@ a:hover{
 .content{
 	margin-left: 0px;
 }
-.content1{
+.content1, .content2{
 	height: 100%;
 }
-.content2{
-	height: 100%;
-}
-#welcome{
+#welcome, #team, #feedback{
 	height: 60px;
 }
-#intro{
-	height: 60px;
-	background: #EEEEEE;
-}
-#team{
-	height: 60px;
-}
-#curation{
-	height: 60px;
-	background: #EEEEEE;
-}
-#feedback{
-	height: 60px;
-}
-#sponsor{
+#intro, #curation, #sponsor{
 	height: 60px;
 	background: #EEEEEE;
 }
