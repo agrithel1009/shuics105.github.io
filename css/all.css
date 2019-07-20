@@ -1,14 +1,23 @@
+/*黑體*/
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+/*楷體*/
+/*圓體*/
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+/*宋體*/
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
+/*明體*/
+
 a{
 	text-decoration: none;
 	color: black;
 }
 a:hover{
-	color: grey;
+	color: #FFE495;
 }
 .header{
 	width: 150px;
 	height: 100%;
-	background: white;
+	background: #EEC343;
 	float:left;
 	position: fixed;
 }
@@ -16,7 +25,6 @@ a:hover{
 	float:left;
 }
 .logo h1 a{
-	background: url("../img/"); 
 	display: block;
 	height: 300px;
 	width: 150px;
@@ -24,7 +32,7 @@ a:hover{
 	text-indent: 101%;
 	overflow: hidden;
 	white-space: nowrap;
-	background: grey;
+	background: url(../img/logo1.png);
 }
 .topmenu ul{
 	float:left;
@@ -34,16 +42,14 @@ a:hover{
 .topmenu li a{
 	float:left;
 	width: 140px;
-	height: 25px;
+	height: 22px;
 	text-align: right;
 	padding: 7px 10px 0px 0px;
+	font-family: 'cwTeXYen', sans-serif;
 }
 .topmenu li a:hover{
-	background: #EEEEEE;
+	background: #FFE495;
 	color: black;
-}
-.here{
-	background: #EEEEEE;
 }
 .menuclear{
 	clear:both;
@@ -52,7 +58,7 @@ a:hover{
 .fan{
 	text-align: center; 
 	font-size: 24px; 
-	margin-bottom: 10px;
+	margin-bottom: 12px;
 }
 .fan i{
 	width: 30px;
@@ -60,6 +66,7 @@ a:hover{
 .topfooter{
 	font-size: 12px;
 	text-align: center;
+	font-family: 'cwTeXYen', sans-serif;
 }
 .menu{
 	display: none;
@@ -81,41 +88,46 @@ a:hover{
 }
 .intro{
 	padding: 0px 70px 20px 70px;
+	height: 580px;
 }
 .intro h2{
 	text-align: left;
-	font-size: 24px;
-	font-weight: bold;
+	font-size: 26px;
 	margin-top: 30px;
+	font-family: 'cwTeXYen', sans-serif;
 }
 .intro p{
 	padding: 25px;
 }
 .content1{
-	background: #EEEEEE;
-	height: 580px;
+	background: #EEC343;
+	height: 579px;
 }
 .content1 h2{
 	text-align: right;
 	padding-top: 30px;
 	padding-right: 70px;
 	font-size: 24px;
-	font-weight: bold;
+	font-family: 'cwTeXYen', sans-serif;
 }
 .content2{
-	height: 580px;
+	height: 579px;
 }
 .content2 h2{
 	text-align: right;
 	padding-top: 30px;
 	padding-right: 70px;
 	font-size: 24px;
-	font-weight: bold;
+	font-family: 'cwTeXYen', sans-serif;
+}
+.banner{
+	width: 100%;
 }
 .curator{
 	margin: 0px auto 30px auto;
 	text-align: center;
 	font-size: 24px;
+	font-family: 'cwTeXYen', sans-serif;
 	width: 70%;
 }
 .curator li{
@@ -125,6 +137,8 @@ a:hover{
 	margin: auto;
 	text-align: center;
 	width: 70%;
+	font-family: 'cwTeXYen', sans-serif;
+	font-size: 20px;
 }
 .team-list li{
 	display: inline-block;
@@ -133,7 +147,7 @@ a:hover{
 }
 .team-list li a{
 	display: inline-block;
-	margin: 20px 0px 0px 0px;
+	margin-top: 20px;
 }
 .team-list li ul li{
 	display: inline;
@@ -150,7 +164,6 @@ a:hover{
 .header{
 	width: 100%;
 	height: 60px;
-	background: #EEEEEE;
 	position: fixed;
 	float:left;
 }
@@ -185,13 +198,14 @@ a:hover{
 #menu{
 	width: 100%;
 	height: 216px;
-	background: white;
+	background: #EEC343;
 	float: left;
 }
 #menu a{
 	display: block;
 	text-align: center;
 	padding: 10px 0px;
+	font-family: 'cwTeXYen', sans-serif;
 }
 .header ul{
 	display: none;
@@ -202,12 +216,15 @@ a:hover{
 .content1, .content2{
 	height: 100%;
 }
+.banner{
+	width: 100%;
+}
 #welcome, #team, #feedback{
 	height: 60px;
 }
-#intro, #curation, #sponsor{
+#curation, #sponsor{
 	height: 60px;
-	background: #EEEEEE;
+	background: #EEC343;
 }
 .contentclear{
 	clear:both;
@@ -216,7 +233,7 @@ a:hover{
 .footer{
 	display: block;
 	height: 50px;
-	background: #EEEEEE;
+	background: #EEC343;
 	padding: 5px;
 }
 .footer p{
