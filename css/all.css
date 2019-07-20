@@ -42,6 +42,9 @@ a:hover{
 	background: #EEEEEE;
 	color: black;
 }
+.here{
+	background: #EEEEEE;
+}
 .menuclear{
 	clear:both;
 	padding: 10px;
