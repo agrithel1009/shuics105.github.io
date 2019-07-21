@@ -10,7 +10,7 @@ $(document).ready(function() {
 	});
 	$('.curator').click(function() {
 		event.preventDefault();
-		$(this).find('li').slideToggle();
+		$(this).find('li').fadeIn(800);
 	});
 	$('.team-list > li > ul').ready(function() {
 		$('.team-list > li > ul').hide();
