@@ -7,21 +7,27 @@ $(document).ready(function() {
 	});
 	$('a#if').click(function(){
 		$('html,body').animate({scrollTop:$('#inform').offset().top},800);
+		return false;
 	});
 	$('a#it').click(function(){
 		$('html,body').animate({scrollTop:$('#intro').offset().top},800);
+		return false;
 	});
 	$('a#tm').click(function(){
 		$('html,body').animate({scrollTop:$('#team').offset().top},800);
+		return false;
 	});
 	$('a#cr').click(function(){
 		$('html,body').animate({scrollTop:$('#curation').offset().top},800);
+		return false;
 	});
 	$('a#fb').click(function(){
 		$('html,body').animate({scrollTop:$('#feedback').offset().top},800);
+		return false;
 	});
 	$('a#sp').click(function(){
 		$('html,body').animate({scrollTop:$('#sponsor').offset().top},800);
+		return false;
 	});
 	$('.curator > li').ready(function() {
 		$('.curator > li').hide();
