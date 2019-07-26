@@ -5,6 +5,24 @@ $(document).ready(function() {
 	$('#menu a').click(function() {
 		$('#menu').slideUp(0);
 	});
+	$('a#if').click(function(){
+		$('html,body').animate({scrollTop:$('#inform').offset().top},800);
+	});
+	$('a#it').click(function(){
+		$('html,body').animate({scrollTop:$('#intro').offset().top},800);
+	});
+	$('a#tm').click(function(){
+		$('html,body').animate({scrollTop:$('#team').offset().top},800);
+	});
+	$('a#cr').click(function(){
+		$('html,body').animate({scrollTop:$('#curation').offset().top},800);
+	});
+	$('a#fb').click(function(){
+		$('html,body').animate({scrollTop:$('#feedback').offset().top},800);
+	});
+	$('a#sp').click(function(){
+		$('html,body').animate({scrollTop:$('#sponsor').offset().top},800);
+	});
 	$('.curator > li').ready(function() {
 		$('.curator > li').hide();
 	});
