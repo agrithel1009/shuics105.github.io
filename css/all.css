@@ -242,23 +242,14 @@ a:hover{
 	padding: 0px 30px;
 	height: 100%;
 }
-#inform, #team, #feedback{
-	height: 60px;
-}
-#curation, #sponsor{
-	height: 60px;
-	background: #EEC343;
-}
-
 .contentclear{
 	clear:both;
-	padding: 30px;
 }
 .footer{
 	display: block;
 	height: 50px;
 	background: #EEC343;
-	padding: 5px;
+	font-family: 'cwTeXYen', sans-serif;
 }
 .footer p{
 	text-align: center;
