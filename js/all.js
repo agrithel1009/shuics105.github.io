@@ -29,6 +29,7 @@ $(document).ready(function() {
 		$('html,body').animate({scrollTop:$('#sponsor').offset().top},800);
 		return false;
 	});
+
 	$('.curator > li').ready(function() {
 		$('.curator > li').hide();
 	});
