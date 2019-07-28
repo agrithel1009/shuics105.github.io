@@ -127,9 +127,11 @@ a:hover{
 	height: 100px;
 	margin: 0px 5px;
 }
-.team4_intro{
+.team1_intro, .team2_intro, .team3_intro, .team4_intro, .team5_intro, .team6_intro, 
+.team7_intro, .team8_intro, .team9_intro, .team10_intro, .team11_intro, .team12_intro{
 	display: none; 
 	margin-left: 70px;
+	height: 100%;
 }
 .team_inform1{
 	display: inline-block;
@@ -220,7 +222,8 @@ a:hover{
 #menu{
 	width: 100%;
 	height: 216px;
-	background: #EEC343;
+	background: #87AED1;
+	color:white;
 	float: left;
 }
 #menu a{
@@ -259,7 +262,8 @@ a:hover{
 
 @media(max-width: 880px)  {
 
-.team4_intro{
+.team1_intro, .team2_intro, .team3_intro, .team4_intro, .team5_intro, .team6_intro, 
+.team7_intro, .team8_intro, .team9_intro, .team10_intro, .team11_intro, .team12_intro{
 	margin-left: 0px;
 }
 .team_inform1{
