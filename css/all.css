@@ -88,6 +88,9 @@ a:hover{
 #team, #feedback{
 	background: #EEC343;
 }
+#team{
+	background: url(../img/map1.jpg) fixed;
+}
 #team h2, #curation h2, #feedback h2, #sponsor h2{
 	text-align: right;
 	font-size: 24px;
@@ -237,9 +240,6 @@ a:hover{
 }
 .content{
 	margin-left: 0px;
-}
-.banner{
-	width: 100%;
 }
 .intro{
 	padding: 0px 30px;

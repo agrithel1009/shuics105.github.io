@@ -35,7 +35,7 @@ $(document).ready(function() {
 	});
 	$('.curator').click(function() {
 		event.preventDefault();
-		$(this).find('li').fadeIn(800);
+		$(this).find('li').fadeToggle(800);
 	});
 	$('.team-list > li > ul').ready(function() {
 		$('.team-list > li > ul').hide();
@@ -72,76 +72,101 @@ $(document).ready(function() {
 		$('.team-menu').hide();
 		$('.team1_intro').siblings().hide();
 		$('.team1_intro').fadeIn(500);
+		$('html,body').animate({scrollTop:$('#team').offset().top},800);
+		return false;
 	});
 	$('#team2').click(function(){
 		event.preventDefault();
 		$('.team-menu').hide();
 		$('.team2_intro').siblings().hide();
 		$('.team2_intro').fadeIn(500);
+		$('html,body').animate({scrollTop:$('#team').offset().top},800);
+		return false;
 	});
 	$('#team3').click(function(){
 		event.preventDefault();
 		$('.team-menu').hide();
 		$('.team3_intro').siblings().hide();
 		$('.team3_intro').fadeIn(500);
+		$('html,body').animate({scrollTop:$('#team').offset().top},800);
+		return false;
 	});
 	$('#team4').click(function(){
 		event.preventDefault();
 		$('.team-menu').hide();
 		$('.team4_intro').siblings().hide();
 		$('.team4_intro').fadeIn(500);
+		$('html,body').animate({scrollTop:$('#team').offset().top},800);
+		return false;
 	});
 	$('#team5').click(function(){
 		event.preventDefault();
 		$('.team-menu').hide();
 		$('.team5_intro').siblings().hide();
 		$('.team5_intro').fadeIn(500);
+		$('html,body').animate({scrollTop:$('#team').offset().top},800);
+		return false;
 	});
 	$('#team6').click(function(){
 		event.preventDefault();
 		$('.team-menu').hide();
 		$('.team6_intro').siblings().hide();
 		$('.team6_intro').fadeIn(500);
+		$('html,body').animate({scrollTop:$('#team').offset().top},800);
+		return false;
 	});
 	$('#team7').click(function(){
 		event.preventDefault();
 		$('.team-menu').hide();
 		$('.team7_intro').siblings().hide();
 		$('.team7_intro').fadeIn(500);
+		$('html,body').animate({scrollTop:$('#team').offset().top},800);
+		return false;
 	});
 	$('#team8').click(function(){
 		event.preventDefault();
 		$('.team-menu').hide();
 		$('.team8_intro').siblings().hide();
 		$('.team8_intro').fadeIn(500);
+		$('html,body').animate({scrollTop:$('#team').offset().top},800);
+		return false;
 	});
 	$('#team9').click(function(){
 		event.preventDefault();
 		$('.team-menu').hide();
 		$('.team9_intro').siblings().hide();
 		$('.team9_intro').fadeIn(500);
+		$('html,body').animate({scrollTop:$('#team').offset().top},800);
+		return false;
 	});
 	$('#team10').click(function(){
 		event.preventDefault();
 		$('.team-menu').hide();
 		$('.team10_intro').siblings().hide();
 		$('.team10_intro').fadeIn(500);
+		$('html,body').animate({scrollTop:$('#team').offset().top},800);
+		return false;
 	});
 	$('#team11').click(function(){
 		event.preventDefault();
 		$('.team-menu').hide();
 		$('.team11_intro').siblings().hide();
 		$('.team11_intro').fadeIn(500);
+		$('html,body').animate({scrollTop:$('#team').offset().top},800);
+		return false;
 	});
 	$('#team12').click(function(){
 		event.preventDefault();
 		$('.team-menu').hide();
 		$('.team12_intro').siblings().hide();
 		$('.team12_intro').fadeIn(500);
+		$('html,body').animate({scrollTop:$('#team').offset().top},800);
+		return false;
 	});
 	$('.back').click(function(){
 		event.preventDefault();
 		$(this).parent().parent().hide();
 		$('.team-menu').fadeIn(500);
+		$('#team h2').fadeIn(500);
 	});
 });
