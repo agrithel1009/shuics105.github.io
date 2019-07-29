@@ -241,9 +241,15 @@ a:hover{
 .content{
 	margin-left: 0px;
 }
-.intro{
-	padding: 30px 0px;
-	height: 100%;
+.banner{
+	margin-top: 60px;
+}
+#intro{
+	padding: 30px 30px;
+}
+#team{
+	padding-top: 70px;
+	padding-bottom: 40px;
 }
 .contentclear{
 	clear:both;
