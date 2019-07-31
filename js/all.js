@@ -5,6 +5,11 @@ $(document).ready(function() {
 	$('#menu a').click(function() {
 		$('#menu').slideUp(0);
 	});
+	$('.top').click(function(){
+		event.preventDefault();
+		$('html,body').animate({scrollTop: 0},800);
+		return false;
+	})
 	$('a#if').click(function(){
 		$('html,body').animate({scrollTop:$('#inform').offset().top},800);
 		return false;
