@@ -9,7 +9,7 @@ a:hover{
 	color: #FFE495;
 }
 .header{
-	width: 150px;
+	width: 151px;
 	height: 100%;
 	background: #EEC343;
 	float:left;
@@ -38,7 +38,7 @@ a:hover{
 	width: 140px;
 	height: 22px;
 	text-align: right;
-	padding: 7px 10px 0px 0px;
+	padding: 7px 11px 0px 0px;
 	font-family: 'cwTeXYen', sans-serif;
 }
 .topmenu li a:hover{
@@ -141,17 +141,17 @@ a:hover{
 	text-align: center;
 }
 .team_title{
-	margin-left: -150px;
+	margin-left: -20px;
 }
 .team_work1{
-	margin-left: -140px;
+	margin-left: 0px;
+	margin-top: 10px;
 }
 .team_work2{
-	margin-left: -150px;
+	margin-left: -10px;
 }
 .team_mem{	
 	margin-bottom: 15px;
-	margin-left: -90px;
 }
 .job1{
 	display: inline; 
@@ -182,6 +182,10 @@ a:hover{
 .team_inform2 p{
 	font-family: 'cwTeXYen', sans-serif; 
 	font-size: 20px;
+}
+.back{
+	font-family: 'cwTeXYen', sans-serif;
+	 float: right;
 }
 .footer{
 	display: none;
@@ -251,6 +255,9 @@ a:hover{
 	padding-top: 70px;
 	padding-bottom: 40px;
 }
+.back{
+	float: none;
+}
 .contentclear{
 	clear:both;
 }
@@ -274,19 +281,6 @@ a:hover{
 }
 .team_inform1{
 	display: block;
-}
-.team_title{
-	margin-left: -15px;
-}
-.team_work1{
-	margin-left: 0px;
-}
-.team_work2{
-	margin-left: -10px;
-}
-.team_mem{	
-	margin-bottom: 15px;
-	margin-left: 0px;
 }
 .team_inform2{
 	display:block;
