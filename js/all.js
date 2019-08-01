@@ -1,49 +1,39 @@
 $(document).ready(function() {
-	$('.menu').click(function() {
-		$('#menu').slideToggle(600);
-	});
-	$('#menu a').click(function() {
-		$('#menu').slideUp(0);
-	});
 	$('.top').click(function(){
 		event.preventDefault();
 		$('html,body').animate({scrollTop: 0},800);
 		return false;
 	})
-	$('a#if').click(function(){
-		$('html,body').animate({scrollTop:$('#inform').offset().top},800);
-		return false;
+	$('.ham').click(function() {
+		$('#topmenu').slideToggle(600);
 	});
-	$('a#it').click(function(){
-		$('html,body').animate({scrollTop:$('#intro').offset().top},800);
-		return false;
+	$('#topmenu a').click(function() {
+		$('#topmenu').slideUp(0);
 	});
-	$('a#tm').click(function(){
-		$('html,body').animate({scrollTop:$('#team').offset().top},800);
-		return false;
+	$('.rightmenu a, #topmenu a').click(function(){
+		event.preventDefault();
+		var target = $(this).attr('href');
+		var targetPos = $(target).offset().top;
+		$('html,body').animate({scrollTop: targetPos}, 1000);
 	});
-	$('a#cr').click(function(){
-		$('html,body').animate({scrollTop:$('#curation').offset().top},800);
-		return false;
+	$(window).scroll(function(){
+		var scrollPos = $(window).scrollTop();
+		$('.rightmenu a').each(function(){
+			var target = $(this).attr('href');
+			var targetPos = $(target).offset().top;
+			var targetHeight = $(target).outerHeight();
+			if(targetPos <= scrollPos && (targetPos+targetHeight) > scrollPos){
+				$('.rightmenu a').removeClass('here');
+				$(this).addClass('here');
+			}
+		});
 	});
-	$('a#fb').click(function(){
-		$('html,body').animate({scrollTop:$('#feedback').offset().top},800);
-		return false;
-	});
-	$('a#sp').click(function(){
-		$('html,body').animate({scrollTop:$('#sponsor').offset().top},800);
-		return false;
-	});
-
-	$('.curator > li').ready(function() {
-		$('.curator > li').hide();
+	$('.curator > li, .team-list > li > ul').ready(function() {
+		$('.curator > li, .team-list > li > ul').hide();
 	});
 	$('.curator').click(function() {
 		event.preventDefault();
 		$(this).find('li').fadeToggle(800);
-	});
-	$('.team-list > li > ul').ready(function() {
-		$('.team-list > li > ul').hide();
 	});
 	$('.team-list > li > a').click(function() {
 		event.preventDefault();

@@ -15,7 +15,8 @@ a:hover{
 	position: fixed;
 	bottom: 0;
 	right: 0;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
+	margin-right: 5px;
 }
 
 .header{
@@ -38,12 +39,12 @@ a:hover{
 	white-space: nowrap;
 	background: url(../img/logo_s.png);
 }
-.topmenu ul{
+.rightmenu ul{
 	float:left;
 	width: 150px;
 	margin: 10px 0px 0px 0px;
 }
-.topmenu li a{
+.rightmenu a{
 	float:left;
 	width: 140px;
 	height: 22px;
@@ -51,9 +52,12 @@ a:hover{
 	padding: 7px 11px 0px 0px;
 	font-family: 'cwTeXYen', sans-serif;
 }
-.topmenu li a:hover{
+.rightmenu a:hover{
 	background: #FFE495;
 	color: black;
+}
+.here{
+	background: #FFE495;
 }
 .menuclear{
 	clear:both;
@@ -67,12 +71,12 @@ a:hover{
 .fan i{
 	width: 30px;
 }
-.topfooter{
+.rightfooter{
 	font-size: 12px;
 	text-align: center;
 	font-family: 'cwTeXYen', sans-serif;
 }
-.menu, #menu, #menu a{
+.ham, #topmenu, #topmenu a{
 	display: none;
 }
 .headerclear{
@@ -86,6 +90,7 @@ a:hover{
 }
 #intro, #team, #curation, #feedback, #sponsor{
 	padding: 30px 70px;
+	height: 100vh;
 }
 #intro h2{
 	text-align: left;
@@ -99,15 +104,12 @@ a:hover{
 	background: #EEC343;
 }
 #team{
-	background: url(../img/map1.jpg) fixed;
+	background: url(../img/map1.jpg) left top fixed;
 }
 #team h2, #curation h2, #feedback h2, #sponsor h2{
 	text-align: right;
 	font-size: 24px;
 	font-family: 'cwTeXYen', sans-serif;
-}
-.banner{
-	width: 100%;
 }
 .curator{
 	margin: 0px auto 10px auto;
@@ -229,26 +231,26 @@ a:hover{
 	overflow: hidden;
 	white-space: nowrap;
 }
-.fan, .topfooter{
+.fan, .rightfooter{
 	display: none;
 }
-.menu{
+.ham{
 	display: block;
 	float:right;
 	width: 50px;
 	padding-top:16px;
 }
-.menu i{
+.ham i{
 	font-size: 32px;
 }
-#menu{
+#topmenu{
 	width: 100%;
 	height: 216px;
 	background: #87AED1;
 	color:white;
 	float: left;
 }
-#menu a{
+#topmenu a{
 	display: block;
 	text-align: center;
 	padding: 10px 0px;
@@ -269,6 +271,9 @@ a:hover{
 #team{
 	padding-top: 70px;
 	padding-bottom: 40px;
+}
+#intro, #team, #curation, #feedback, #sponsor{
+	height: 100%;
 }
 .team_photo{
 	width: 60%; 
