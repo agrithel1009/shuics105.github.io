@@ -9,15 +9,21 @@ a:hover{
 	color: #FFE495;
 }
 .top{
-	width: 50px;
-	height: 50px;
 	position: fixed;
 	bottom: 0;
 	right: 0;
 	margin-bottom: 10px;
 	margin-right: 5px;
+	background: #74A8D4;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	line-height: 1.2;
+	font-size: 14px;
 }
-
+.top:hover{
+	color: white;
+}
 .header{
 	width: 151px;
 	height: 100%;
@@ -93,9 +99,9 @@ a:hover{
 	text-align: center;
 }
 #inform img{
-	height: 50px; 
-	width: 135px; 
-	margin-top: 505px;
+	height: 60px; 
+	width: 130px; 
+	margin-top: 500px;
 }
 #intro, #team, #curation, #feedback, #sponsor{
 	padding: 30px 70px;
@@ -326,6 +332,7 @@ a:hover{
 }
 #inform{
 	background: url('../img/banner_ll.png') fixed no-repeat left top;
+	height: 100vh;
 }
 #intro{
 	padding: 30px 30px;

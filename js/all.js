@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	$('.top').click(function(){
 		event.preventDefault();
-		$('html,body').animate({scrollTop: 0},800);
+		$('html,body').animate({scrollTop: 0},1600);
 		return false;
 	})
 	$('.ham').click(function() {
@@ -14,7 +14,7 @@ $(document).ready(function() {
 		event.preventDefault();
 		var target = $(this).attr('href');
 		var targetPos = $(target).offset().top;
-		$('html,body').animate({scrollTop: targetPos}, 1000);
+		$('html,body').animate({scrollTop: targetPos}, 1600);
 	});
 	$(window).scroll(function(){
 		var scrollPos = $(window).scrollTop();
