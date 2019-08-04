@@ -25,6 +25,7 @@
     <!--CSS-->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/wickedcss.css">
     <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
 
     <!--JavaScript-->
@@ -68,9 +69,11 @@
         </div>        
     </div>        
     <div class="content">
-        <a href="#" class="top"><img src="img/top.png" class="top"></a>        
+        <a href="#" class="top">
+            <img src="img/top.png" class="top">
+        </a>        
         <div id="inform">
-            <img class="banner" src="img/banner_l.png">
+            <a href="#intro"><img class="pulse" src="img/move.png"></a>
         </div>         
         <div id="intro">
             <h2>展覽介紹</h2>
@@ -124,7 +127,7 @@
             </ul>
         </div>
         <div class="team1_intro">
-            <ul style="height: 100%;">
+            <ul>
                 <li class="team_inform1">
                     <div class="team_title">
                     <img src="img/scarecrow.png">
@@ -154,371 +157,393 @@
                 </li>
             </ul>                                   
         </div>        
-        <div class="team2_intro">                
-            <div class="team_inform1">
-                <div class="team_title">
+        <div class="team2_intro">
+            <ul>
+                <li class="team_inform1">
+                    <div class="team_title">
                     <img src="img/scarecrow.png">
                     <h3>Doit</h3>
-                </div>          
-                <img src="img/team4_photo.png" style="width: 350px; height: 200px; margin-top: 15px;">
-                <br/><br/>
-                <div class="team_work1">
-                    <i class='fas fa-tv' style="font-size: 22px;"></i><a href="#" style="position: relative; bottom: 3px; left: 8px; font-family: 'cwTeXYen', sans-serif;">作品連結</a>
-                    <i class='far fa-file-pdf' style="font-size: 26px; margin-left: 22px; position: relative; top: 2px;"></i><a href="#" style="position: relative; bottom: 3px; left: 12px; font-family: 'cwTeXYen', sans-serif;">企畫書連結</a>
-                </div>
-                <br/>
-                <div class="team_work2">
-                    <i class='fab fa-facebook-square' style="font-size: 30px;"></i><a href="#" style="position: relative; bottom: 5px; left: 9px; font-family: 'cwTeXYen', sans-serif;">粉專連結</a>
-                    <i class='fab fa-instagram' style="font-size: 30px; margin-left: 20px; position: relative; top: 1px;"></i><a href="#" style="position: relative; bottom: 5px; left: 8px; font-family: 'cwTeXYen', sans-serif;">粉專連結</a>
-                </div>                
-                <br/><br/>
-                <div class="team_mem">
-                    <p class="job1">專案經理</p><p class="name">謝心俞</p>
-                    <p class="job2">行銷公關</p><p class="name">邱欐惠</p></div>
-                <div class="team_mem">
-                    <p class="job1">前端設計</p><p class="name">王珮瑄</p>
-                    <p class="job2">後端設計</p><p class="name">陳宛仙</p></div>
-                <div class="team_mem">
-                    <p class="job1">視覺設計</p><p class="name">劉晏妏</p>
-                    <p class="job2">文書處理</p><p class="name">呂艾玲</p></div>
-            </div>
-            <div class="team_inform2">
-                <h4>專題簡介</h4>
-                <p>透過將體制外教育與課外活動資訊整合的平台，讓閱聽眾深入了解體制外與制式學習不同之處，並能夠吸取前人經驗，找到屬於自己的學習方式。<br/><br/>指導老師：黃昭謀</p>           
-                <br/><br/><br/><br/><br/>
-                <a class="back" href="#">回小組一覽》</a>
-            </div>                      
+                    </div>          
+                    <img class="team_photo" src="img/team4_photo.png">
+                    <br/><br/>
+                    <div class="team_work1">
+                        <i class='fas fa-tv' style="font-size: 22px;"></i><a href="#" style="position: relative; bottom: 3px; left: 8px; font-family: 'cwTeXYen', sans-serif;">作品連結</a>
+                        <i class='far fa-file-pdf' style="font-size: 26px; margin-left: 22px; position: relative; top: 2px;"></i><a href="#" style="position: relative; bottom: 3px; left: 12px; font-family: 'cwTeXYen', sans-serif;">企畫書連結</a>
+                    </div>
+                    <br/>
+                    <div class="team_work2">
+                        <i class='fab fa-facebook-square' style="font-size: 30px;"></i><a href="#" style="position: relative; bottom: 5px; left: 9px; font-family: 'cwTeXYen', sans-serif;">粉專連結</a>
+                        <i class='fab fa-instagram' style="font-size: 30px; margin-left: 20px; position: relative; top: 1px;"></i><a href="#" style="position: relative; bottom: 5px; left: 8px; font-family: 'cwTeXYen', sans-serif;">粉專連結</a>
+                    </div>                
+                    <br/><br/>
+                    <div class="team_mem">
+                        <p class="job1">專案經理</p><p class="name">謝心俞</p>
+                        <p class="job2">行銷公關</p><p class="name">邱欐惠</p></div>
+                    <div class="team_mem">
+                        <p class="job1">前端設計</p><p class="name">王珮瑄</p>
+                        <p class="job2">後端設計</p><p class="name">陳宛仙</p></div>
+                    <div class="team_mem">
+                        <p class="job1">視覺設計</p><p class="name">劉晏妏</p>
+                        <p class="job2">文書處理</p><p class="name">呂艾玲</p></div>
+                </li>
+                <li class="team_inform2">
+                    <h4>專題簡介</h4>
+                    <p>透過將體制外教育與課外活動資訊整合的平台，讓閱聽眾深入了解體制外與制式學習不同之處，並能夠吸取前人經驗，找到屬於自己的學習方式。<br/><br/>指導老師：黃昭謀</p>           
+                    <br/><br/><br/><br/><br/>
+                    <a class="back" href="#">回小組一覽》</a>
+                </li>
+            </ul>                                  
         </div>
-        <div class="team3_intro">                
-            <div class="team_inform1">
-                <div class="team_title">
+        <div class="team3_intro">
+            <ul>
+                <li class="team_inform1">
+                    <div class="team_title">
                     <img src="img/scarecrow.png">
                     <h3>坪茗區</h3>
-                </div>          
-                <img src="img/team4_photo.png" style="width: 350px; height: 200px; margin-top: 15px;">
-                <br/><br/>
-                <div class="team_work1">
-                    <i class='fas fa-tv' style="font-size: 22px;"></i><a href="#" style="position: relative; bottom: 3px; left: 8px; font-family: 'cwTeXYen', sans-serif;">作品連結</a>
-                    <i class='far fa-file-pdf' style="font-size: 26px; margin-left: 22px; position: relative; top: 2px;"></i><a href="#" style="position: relative; bottom: 3px; left: 12px; font-family: 'cwTeXYen', sans-serif;">企畫書連結</a>
-                </div>
-                <br/>
-                <div class="team_work2">
-                    <i class='fab fa-facebook-square' style="font-size: 30px;"></i><a href="#" style="position: relative; bottom: 5px; left: 9px; font-family: 'cwTeXYen', sans-serif;">粉專連結</a>
-                    <i class='fab fa-instagram' style="font-size: 30px; margin-left: 20px; position: relative; top: 1px;"></i><a href="#" style="position: relative; bottom: 5px; left: 8px; font-family: 'cwTeXYen', sans-serif;">粉專連結</a>
-                </div>                
-                <br/><br/>
-                <div class="team_mem">
-                    <p class="job1">專案經理</p><p class="name">施宜汝</p>
-                    <p class="job2">行銷公關</p><p class="name">黃麟凱</p></div>
-                <div class="team_mem">
-                    <p class="job1">程式設計</p><p class="name">譚宅鈞</p>
-                    <p class="job2">程式設計</p><p class="name">吳兆恩</p></div>
-                <div class="team_mem">
-                    <p class="job1">視覺設計</p><p class="name">黃凱琳</p>
-                    <p class="job2">內容設計</p><p class="name">黃婉寧</p></div>
-            </div>
-            <div class="team_inform2">
-                <h4>專題簡介</h4>
-                <p>茶在華人文化中具有相當悠久的歷史，現今依舊有許多人有泡茶、飲茶的習慣，我們期望可以提供一平台供想要更深刻認識茶文化之使用者參考，並且以符合現代人的使用以及閱讀習慣的呈現方式，更加有效地讓使用者了解其中奧秘並留下深刻印象。我們將以坪林的茶文化作為出發點，透過訪問、拍攝、紀錄，將身為茶業重鎮的坪林背後所蘊藏的豐厚底蘊提供給大眾知曉。<br/><br/>指導老師：黃昭謀</p>           
-                <br/><br/><br/><br/><br/>
-                <a class="back" href="#">回小組一覽》</a>
-            </div>                      
+                    </div>          
+                    <img src="img/team4_photo.png" class="team_photo">
+                    <br/><br/>
+                    <div class="team_work1">
+                        <i class='fas fa-tv' style="font-size: 22px;"></i><a href="#" style="position: relative; bottom: 3px; left: 8px; font-family: 'cwTeXYen', sans-serif;">作品連結</a>
+                        <i class='far fa-file-pdf' style="font-size: 26px; margin-left: 22px; position: relative; top: 2px;"></i><a href="#" style="position: relative; bottom: 3px; left: 12px; font-family: 'cwTeXYen', sans-serif;">企畫書連結</a>
+                    </div>
+                    <br/>
+                    <div class="team_work2">
+                        <i class='fab fa-facebook-square' style="font-size: 30px;"></i><a href="#" style="position: relative; bottom: 5px; left: 9px; font-family: 'cwTeXYen', sans-serif;">粉專連結</a>
+                        <i class='fab fa-instagram' style="font-size: 30px; margin-left: 20px; position: relative; top: 1px;"></i><a href="#" style="position: relative; bottom: 5px; left: 8px; font-family: 'cwTeXYen', sans-serif;">粉專連結</a>
+                    </div>                
+                    <br/><br/>
+                    <div class="team_mem">
+                        <p class="job1">專案經理</p><p class="name">施宜汝</p>
+                        <p class="job2">行銷公關</p><p class="name">黃麟凱</p></div>
+                    <div class="team_mem">
+                        <p class="job1">程式設計</p><p class="name">譚宅鈞</p>
+                        <p class="job2">程式設計</p><p class="name">吳兆恩</p></div>
+                    <div class="team_mem">
+                        <p class="job1">視覺設計</p><p class="name">黃凱琳</p>
+                        <p class="job2">內容設計</p><p class="name">黃婉寧</p></div>
+                </li>
+                <li class="team_inform2">
+                    <h4>專題簡介</h4>
+                    <p>茶在華人文化中具有相當悠久的歷史，現今依舊有許多人有泡茶、飲茶的習慣，我們期望可以提供一平台供想要更深刻認識茶文化之使用者參考，並且以符合現代人的使用以及閱讀習慣的呈現方式，更加有效地讓使用者了解其中奧秘並留下深刻印象。我們將以坪林的茶文化作為出發點，透過訪問、拍攝、紀錄，將身為茶業重鎮的坪林背後所蘊藏的豐厚底蘊提供給大眾知曉。<br/><br/>指導老師：黃昭謀</p>           
+                    <br/><br/><br/><br/><br/>
+                    <a class="back" href="#">回小組一覽》</a>
+                </li>
+            </ul>                                  
         </div>
-        <div class="team4_intro">                
-            <div class="team_inform1">
-                <div class="team_title">
+        <div class="team4_intro">
+            <ul>
+                <li class="team_inform1">
+                    <div class="team_title">
                     <img src="img/scarecrow.png">
                     <h3>即刻救援</h3>
-                </div>          
-                <img src="img/team4_photo.png" style="width: 350px; height: 200px; margin-top: 15px;">
-                <br/><br/>
-                <div class="team_work1">
-                    <i class='fas fa-tv' style="font-size: 22px;"></i><a href="#" style="position: relative; bottom: 3px; left: 8px; font-family: 'cwTeXYen', sans-serif;">作品連結</a>
-                    <i class='far fa-file-pdf' style="font-size: 26px; margin-left: 22px; position: relative; top: 2px;"></i><a href="#" style="position: relative; bottom: 3px; left: 12px; font-family: 'cwTeXYen', sans-serif;">企畫書連結</a>
-                </div>
-                <br/>
-                <div class="team_work2">
-                    <i class='fab fa-facebook-square' style="font-size: 30px;"></i><a href="#" style="position: relative; bottom: 5px; left: 9px; font-family: 'cwTeXYen', sans-serif;">粉專連結</a>
-                    <i class='fab fa-instagram' style="font-size: 30px; margin-left: 20px; position: relative; top: 1px;"></i><a href="#" style="position: relative; bottom: 5px; left: 8px; font-family: 'cwTeXYen', sans-serif;">粉專連結</a>
-                </div>                
-                <br/><br/>
-                <div class="team_mem">
-                    <p class="job1">專案經理</p><p class="name">林宗庭</p>
-                    <p class="job2">行銷公關</p><p class="name">莊桓郡</p></div>
-                <div class="team_mem">
-                    <p class="job1">程式設計</p><p class="name">周育柔</p>
-                    <p class="job2">程式設計</p><p class="name">李宗倫</p></div>
-                <div class="team_mem">
-                    <p class="job1">視覺設計</p><p class="name">黃于娟</p>
-                    <p class="job2">影像設計</p><p class="name">陳彥宏</p></div>
-            </div>
-            <div class="team_inform2">
-                <h4>專題簡介</h4>
-                <p>民眾遇到突然發生的意外大多數的人都會緊張不知所措，如果缺乏一些相關知識的話可能會沒辦法緊急處理，只能愣在那裏等人幫助，在發現這情況之後，我們團隊想要為了天下眾生解決緊急事件，希望能藉由這個專案可以帶領民眾在遇到突發狀況時能夠清楚的知道應該要怎麼做才對，怎麼做可以減少傷害及死亡機率。<br/><br/>指導老師：阮明淑</p>           
-                <br/><br/><br/><br/><br/>
-                <a class="back" href="#">回小組一覽》</a>
-            </div>                      
+                    </div>          
+                    <img src="img/team4_photo.png" class="team_photo">
+                    <br/><br/>
+                    <div class="team_work1">
+                        <i class='fas fa-tv' style="font-size: 22px;"></i><a href="#" style="position: relative; bottom: 3px; left: 8px; font-family: 'cwTeXYen', sans-serif;">作品連結</a>
+                        <i class='far fa-file-pdf' style="font-size: 26px; margin-left: 22px; position: relative; top: 2px;"></i><a href="#" style="position: relative; bottom: 3px; left: 12px; font-family: 'cwTeXYen', sans-serif;">企畫書連結</a>
+                    </div>
+                    <br/>
+                    <div class="team_work2">
+                        <i class='fab fa-facebook-square' style="font-size: 30px;"></i><a href="#" style="position: relative; bottom: 5px; left: 9px; font-family: 'cwTeXYen', sans-serif;">粉專連結</a>
+                        <i class='fab fa-instagram' style="font-size: 30px; margin-left: 20px; position: relative; top: 1px;"></i><a href="#" style="position: relative; bottom: 5px; left: 8px; font-family: 'cwTeXYen', sans-serif;">粉專連結</a>
+                    </div>                
+                    <br/><br/>
+                    <div class="team_mem">
+                        <p class="job1">專案經理</p><p class="name">林宗庭</p>
+                        <p class="job2">行銷公關</p><p class="name">莊桓郡</p></div>
+                    <div class="team_mem">
+                        <p class="job1">程式設計</p><p class="name">周育柔</p>
+                        <p class="job2">程式設計</p><p class="name">李宗倫</p></div>
+                    <div class="team_mem">
+                        <p class="job1">視覺設計</p><p class="name">黃于娟</p>
+                        <p class="job2">影像設計</p><p class="name">陳彥宏</p></div>
+                </li>
+                <li class="team_inform2">
+                    <h4>專題簡介</h4>
+                    <p>民眾遇到突然發生的意外大多數的人都會緊張不知所措，如果缺乏一些相關知識的話可能會沒辦法緊急處理，只能愣在那裏等人幫助，在發現這情況之後，我們團隊想要為了天下眾生解決緊急事件，希望能藉由這個專案可以帶領民眾在遇到突發狀況時能夠清楚的知道應該要怎麼做才對，怎麼做可以減少傷害及死亡機率。<br/><br/>指導老師：阮明淑</p>           
+                    <br/><br/><br/><br/><br/>
+                    <a class="back" href="#">回小組一覽》</a>
+                </li>
+            </ul>                                   
         </div>
-        <div class="team5_intro">                
-            <div class="team_inform1">
-                <div class="team_title">
+        <div class="team5_intro">
+            <ul>
+                <li class="team_inform1">
+                    <div class="team_title">
                     <img src="img/scarecrow.png">
                     <h3>樂血HBD</h3>
-                </div>          
-                <img src="img/team4_photo.png" style="width: 350px; height: 200px; margin-top: 15px;">
-                <br/><br/>
-                <div class="team_work1">
-                    <i class='fas fa-tv' style="font-size: 22px;"></i><a href="#" style="position: relative; bottom: 3px; left: 8px; font-family: 'cwTeXYen', sans-serif;">作品連結</a>
-                    <i class='far fa-file-pdf' style="font-size: 26px; margin-left: 22px; position: relative; top: 2px;"></i><a href="#" style="position: relative; bottom: 3px; left: 12px; font-family: 'cwTeXYen', sans-serif;">企畫書連結</a>
-                </div>
-                <br/>
-                <div class="team_work2">
-                    <i class='fab fa-facebook-square' style="font-size: 30px;"></i><a href="#" style="position: relative; bottom: 5px; left: 9px; font-family: 'cwTeXYen', sans-serif;">粉專連結</a>
-                    <i class='fab fa-instagram' style="font-size: 30px; margin-left: 20px; position: relative; top: 1px;"></i><a href="#" style="position: relative; bottom: 5px; left: 8px; font-family: 'cwTeXYen', sans-serif;">粉專連結</a>
-                </div>                
-                <br/><br/>
-                <div class="team_mem">
-                    <p class="job1">專案經理</p><p class="name">陳淑芸</p>
-                    <p class="job2">行銷公關</p><p class="name">楊庭華</p></div>
-                <div class="team_mem">
-                    <p class="job1">程式設計</p><p class="name">林函豫</p>
-                    <p class="job2">內容設計</p><p class="name">黃靖晏</p></div>
-                <div class="team_mem">
-                    <p class="job1">視覺設計</p><p class="name">羅紫寧</p>
-                    <p class="job2">內容設計</p><p class="name">文芷鈺</p></div>
-            </div>
-            <div class="team_inform2">
-                <h4>專題簡介</h4>
-                <p>本專案希望透過我們設計的網站，讓能捐但不願捐的民眾願意捐血，透過簡易的網頁互動或是小遊戲，讓民眾了解捐血的過程等等，提民眾對捐血的接觸，以達到血庫有固定的血量可以使用。<br/><br/>指導老師：阮明淑</p>           
-                <br/><br/><br/><br/><br/>
-                <a class="back" href="#">回小組一覽》</a>
-            </div>                      
+                    </div>          
+                    <img src="img/team4_photo.png" class="team_photo">
+                    <br/><br/>
+                    <div class="team_work1">
+                        <i class='fas fa-tv' style="font-size: 22px;"></i><a href="#" style="position: relative; bottom: 3px; left: 8px; font-family: 'cwTeXYen', sans-serif;">作品連結</a>
+                        <i class='far fa-file-pdf' style="font-size: 26px; margin-left: 22px; position: relative; top: 2px;"></i><a href="#" style="position: relative; bottom: 3px; left: 12px; font-family: 'cwTeXYen', sans-serif;">企畫書連結</a>
+                    </div>
+                    <br/>
+                    <div class="team_work2">
+                        <i class='fab fa-facebook-square' style="font-size: 30px;"></i><a href="#" style="position: relative; bottom: 5px; left: 9px; font-family: 'cwTeXYen', sans-serif;">粉專連結</a>
+                        <i class='fab fa-instagram' style="font-size: 30px; margin-left: 20px; position: relative; top: 1px;"></i><a href="#" style="position: relative; bottom: 5px; left: 8px; font-family: 'cwTeXYen', sans-serif;">粉專連結</a>
+                    </div>                
+                    <br/><br/>
+                    <div class="team_mem">
+                        <p class="job1">專案經理</p><p class="name">陳淑芸</p>
+                        <p class="job2">行銷公關</p><p class="name">楊庭華</p></div>
+                    <div class="team_mem">
+                        <p class="job1">程式設計</p><p class="name">林函豫</p>
+                        <p class="job2">內容設計</p><p class="name">黃靖晏</p></div>
+                    <div class="team_mem">
+                        <p class="job1">視覺設計</p><p class="name">羅紫寧</p>
+                        <p class="job2">內容設計</p><p class="name">文芷鈺</p></div>
+                </li>
+                <li class="team_inform2">
+                    <h4>專題簡介</h4>
+                    <p>本專案希望透過我們設計的網站，讓能捐但不願捐的民眾願意捐血，透過簡易的網頁互動或是小遊戲，讓民眾了解捐血的過程等等，提民眾對捐血的接觸，以達到血庫有固定的血量可以使用。<br/><br/>指導老師：阮明淑</p>           
+                    <br/><br/><br/><br/><br/>
+                    <a class="back" href="#">回小組一覽》</a>
+                </li>
+            </ul>                              
         </div>
-        <div class="team6_intro">                
-            <div class="team_inform1">
-                <div class="team_title">
+        <div class="team6_intro">
+            <ul>
+                <li class="team_inform1">
+                    <div class="team_title">
                     <img src="img/scarecrow.png">
                     <h3>拾蒂夫</h3>
-                </div>          
-                <img src="img/team4_photo.png" style="width: 350px; height: 200px; margin-top: 15px;">
-                <br/><br/>
-                <div class="team_work1">
-                    <i class='fas fa-tv' style="font-size: 22px;"></i><a href="#" style="position: relative; bottom: 3px; left: 8px; font-family: 'cwTeXYen', sans-serif;">作品連結</a>
-                    <i class='far fa-file-pdf' style="font-size: 26px; margin-left: 22px; position: relative; top: 2px;"></i><a href="#" style="position: relative; bottom: 3px; left: 12px; font-family: 'cwTeXYen', sans-serif;">企畫書連結</a>
-                </div>
-                <br/>
-                <div class="team_work2">
-                    <i class='fab fa-facebook-square' style="font-size: 30px;"></i><a href="#" style="position: relative; bottom: 5px; left: 9px; font-family: 'cwTeXYen', sans-serif;">粉專連結</a>
-                    <i class='fab fa-instagram' style="font-size: 30px; margin-left: 20px; position: relative; top: 1px;"></i><a href="#" style="position: relative; bottom: 5px; left: 8px; font-family: 'cwTeXYen', sans-serif;">粉專連結</a>
-                </div>                
-                <br/><br/>
-                <div class="team_mem">
-                    <p class="job1">專案經理</p><p class="name">李哲豪</p>
-                    <p class="job2">行銷公關</p><p class="name">陳彥宇</p></div>
-                <div class="team_mem">
-                    <p class="job1">程式設計</p><p class="name">洪竹嫻</p>
-                    <p class="job2">行銷企劃</p><p class="name">邱敬傑</p></div>
-                <div class="team_mem">
-                    <p class="job1">視覺設計</p><p class="name">章惟惟</p>
-                    <p class="job2">影像設計</p><p class="name">阮可翰</p></div>
-            </div>
-            <div class="team_inform2">
-                <h4>專題簡介</h4>
-                <p>此展覽致力於使用視覺藝術闡述丟菸蒂這種小動作對環境造成的影響，使大眾了解菸蒂的去處以及形成的危害，提升大眾的環保意識。<br/><br/>指導老師：黃昭謀</p>           
-                <br/><br/><br/><br/><br/>
-                <a class="back" href="#">回小組一覽》</a>
-            </div>                      
+                    </div>          
+                    <img src="img/team4_photo.png" class="team_photo">
+                    <br/><br/>
+                    <div class="team_work1">
+                        <i class='fas fa-tv' style="font-size: 22px;"></i><a href="#" style="position: relative; bottom: 3px; left: 8px; font-family: 'cwTeXYen', sans-serif;">作品連結</a>
+                        <i class='far fa-file-pdf' style="font-size: 26px; margin-left: 22px; position: relative; top: 2px;"></i><a href="#" style="position: relative; bottom: 3px; left: 12px; font-family: 'cwTeXYen', sans-serif;">企畫書連結</a>
+                    </div>
+                    <br/>
+                    <div class="team_work2">
+                        <i class='fab fa-facebook-square' style="font-size: 30px;"></i><a href="#" style="position: relative; bottom: 5px; left: 9px; font-family: 'cwTeXYen', sans-serif;">粉專連結</a>
+                        <i class='fab fa-instagram' style="font-size: 30px; margin-left: 20px; position: relative; top: 1px;"></i><a href="#" style="position: relative; bottom: 5px; left: 8px; font-family: 'cwTeXYen', sans-serif;">粉專連結</a>
+                    </div>                
+                    <br/><br/>
+                    <div class="team_mem">
+                        <p class="job1">專案經理</p><p class="name">李哲豪</p>
+                        <p class="job2">行銷公關</p><p class="name">陳彥宇</p></div>
+                    <div class="team_mem">
+                        <p class="job1">程式設計</p><p class="name">洪竹嫻</p>
+                        <p class="job2">行銷企劃</p><p class="name">邱敬傑</p></div>
+                    <div class="team_mem">
+                        <p class="job1">視覺設計</p><p class="name">章惟惟</p>
+                        <p class="job2">影像設計</p><p class="name">阮可翰</p></div>
+                </li>
+                <li class="team_inform2">
+                    <h4>專題簡介</h4>
+                    <p>此展覽致力於使用視覺藝術闡述丟菸蒂這種小動作對環境造成的影響，使大眾了解菸蒂的去處以及形成的危害，提升大眾的環保意識。<br/><br/>指導老師：黃昭謀</p>           
+                    <br/><br/><br/><br/><br/>
+                    <a class="back" href="#">回小組一覽》</a>
+                </li>
+            </ul>                                    
         </div>
-        <div class="team7_intro">                
-            <div class="team_inform1">
-                <div class="team_title">
+        <div class="team7_intro">
+            <ul>
+                <li class="team_inform1">
+                    <div class="team_title">
                     <img src="img/scarecrow.png">
                     <h3>極簡</h3>
-                </div>          
-                <img src="img/team4_photo.png" style="width: 350px; height: 200px; margin-top: 15px;">
-                <br/><br/>
-                <div class="team_work1">
-                    <i class='fas fa-tv' style="font-size: 22px;"></i><a href="#" style="position: relative; bottom: 3px; left: 8px; font-family: 'cwTeXYen', sans-serif;">作品連結</a>
-                    <i class='far fa-file-pdf' style="font-size: 26px; margin-left: 22px; position: relative; top: 2px;"></i><a href="#" style="position: relative; bottom: 3px; left: 12px; font-family: 'cwTeXYen', sans-serif;">企畫書連結</a>
-                </div>
-                <br/>
-                <div class="team_work2">
-                    <i class='fab fa-facebook-square' style="font-size: 30px;"></i><a href="#" style="position: relative; bottom: 5px; left: 9px; font-family: 'cwTeXYen', sans-serif;">粉專連結</a>
-                    <i class='fab fa-instagram' style="font-size: 30px; margin-left: 20px; position: relative; top: 1px;"></i><a href="#" style="position: relative; bottom: 5px; left: 8px; font-family: 'cwTeXYen', sans-serif;">粉專連結</a>
-                </div>                
-                <br/><br/>
-                <div class="team_mem">
-                    <p class="job1">專案經理</p><p class="name">王慈萱</p>
-                    <p class="job2">行銷公關</p><p class="name">陳敏慧</p></div>
-                <div class="team_mem">
-                    <p class="job1">程式設計</p><p class="name">鄭自涵</p>
-                    <p class="job2">視覺設計</p><p class="name">蘇芳萱</p></div>
-            </div>
-            <div class="team_inform2">
-                <h4>專題簡介</h4>
-                <p>極簡生活LESS IS MORE
-                透過分析現代人生活，了解在物質、精神或習性上與極簡主義的異同，傳遞極簡生活的真諦，讓大家反思及做出行動，把時間規自己掌握，開始專注於自己真正想從事的精神活動，精神不只在於擁有精簡的物品，日常的繁雜事務與身心靈也要一併大掃除。<br/><br/>指導老師：林頌堅</p>         
-                <br/><br/><br/><br/><br/>
-                <a class="back" href="#">回小組一覽》</a>
-            </div>                      
+                    </div>          
+                    <img src="img/team4_photo.png" class="team_photo">
+                    <br/><br/>
+                    <div class="team_work1">
+                        <i class='fas fa-tv' style="font-size: 22px;"></i><a href="#" style="position: relative; bottom: 3px; left: 8px; font-family: 'cwTeXYen', sans-serif;">作品連結</a>
+                        <i class='far fa-file-pdf' style="font-size: 26px; margin-left: 22px; position: relative; top: 2px;"></i><a href="#" style="position: relative; bottom: 3px; left: 12px; font-family: 'cwTeXYen', sans-serif;">企畫書連結</a>
+                    </div>
+                    <br/>
+                    <div class="team_work2">
+                        <i class='fab fa-facebook-square' style="font-size: 30px;"></i><a href="#" style="position: relative; bottom: 5px; left: 9px; font-family: 'cwTeXYen', sans-serif;">粉專連結</a>
+                        <i class='fab fa-instagram' style="font-size: 30px; margin-left: 20px; position: relative; top: 1px;"></i><a href="#" style="position: relative; bottom: 5px; left: 8px; font-family: 'cwTeXYen', sans-serif;">粉專連結</a>
+                    </div>                
+                    <br/><br/>
+                    <div class="team_mem">
+                        <p class="job1">專案經理</p><p class="name">王慈萱</p>
+                        <p class="job2">行銷公關</p><p class="name">陳敏慧</p></div>
+                    <div class="team_mem">
+                        <p class="job1">程式設計</p><p class="name">鄭自涵</p>
+                        <p class="job2">視覺設計</p><p class="name">蘇芳萱</p></div>
+                </li>
+                <li class="team_inform2">
+                    <h4>專題簡介</h4>
+                    <p>極簡生活LESS IS MORE
+                    透過分析現代人生活，了解在物質、精神或習性上與極簡主義的異同，傳遞極簡生活的真諦，讓大家反思及做出行動，把時間規自己掌握，開始專注於自己真正想從事的精神活動，精神不只在於擁有精簡的物品，日常的繁雜事務與身心靈也要一併大掃除。<br/><br/>指導老師：林頌堅</p>         
+                    <br/><br/><br/><br/><br/>
+                    <a class="back" href="#">回小組一覽》</a>
+                </li>
+            </ul>                               
         </div>
-        <div class="team8_intro">                
-            <div class="team_inform1">
-                <div class="team_title">
+        <div class="team8_intro">
+            <ul>
+                <li class="team_inform1">
+                    <div class="team_title">
                     <img src="img/scarecrow.png">
                     <h3>迷糜</h3>
-                </div>          
-                <img src="img/team4_photo.png" style="width: 350px; height: 200px; margin-top: 15px;">
-                <br/><br/>
-                <div class="team_work1">
-                    <i class='fas fa-tv' style="font-size: 22px;"></i><a href="#" style="position: relative; bottom: 3px; left: 8px; font-family: 'cwTeXYen', sans-serif;">作品連結</a>
-                    <i class='far fa-file-pdf' style="font-size: 26px; margin-left: 22px; position: relative; top: 2px;"></i><a href="#" style="position: relative; bottom: 3px; left: 12px; font-family: 'cwTeXYen', sans-serif;">企畫書連結</a>
-                </div>
-                <br/>
-                <div class="team_work2">
-                    <i class='fab fa-facebook-square' style="font-size: 30px;"></i><a href="#" style="position: relative; bottom: 5px; left: 9px; font-family: 'cwTeXYen', sans-serif;">粉專連結</a>
-                    <i class='fab fa-instagram' style="font-size: 30px; margin-left: 20px; position: relative; top: 1px;"></i><a href="#" style="position: relative; bottom: 5px; left: 8px; font-family: 'cwTeXYen', sans-serif;">粉專連結</a>
-                </div>                
-                <br/><br/>
-                <div class="team_mem">
-                    <p class="job1">專案經理</p><p class="name">洪于軫</p>
-                    <p class="job2">行銷公關</p><p class="name">李玟</p></div>
-                <div class="team_mem">
-                    <p class="job1">內容設計</p><p class="name">侯亭妤</p>
-                    <p class="job2">視覺設計</p><p class="name">沈育秀</p></div>
-            </div>
-            <div class="team_inform2">
-                <h4>專題簡介</h4>
-                <p>在人際關係裡，親子關係深深影響一個人的價值觀，而情緒勒索也常常存在於親子關係之中，無論是父母對子女，或者是子女對父母，有時不經意就會互相傷害，希望觀展者能夠透過這個展覽，審思自己所處的親子關係是否健康。<br/><br/>指導老師：莊道明</p>           
-                <br/><br/><br/><br/><br/>
-                <a class="back" href="#">回小組一覽》</a>
-            </div>                      
+                    </div>          
+                    <img src="img/team4_photo.png" class="team_photo">
+                    <br/><br/>
+                    <div class="team_work1">
+                        <i class='fas fa-tv' style="font-size: 22px;"></i><a href="#" style="position: relative; bottom: 3px; left: 8px; font-family: 'cwTeXYen', sans-serif;">作品連結</a>
+                        <i class='far fa-file-pdf' style="font-size: 26px; margin-left: 22px; position: relative; top: 2px;"></i><a href="#" style="position: relative; bottom: 3px; left: 12px; font-family: 'cwTeXYen', sans-serif;">企畫書連結</a>
+                    </div>
+                    <br/>
+                    <div class="team_work2">
+                        <i class='fab fa-facebook-square' style="font-size: 30px;"></i><a href="#" style="position: relative; bottom: 5px; left: 9px; font-family: 'cwTeXYen', sans-serif;">粉專連結</a>
+                        <i class='fab fa-instagram' style="font-size: 30px; margin-left: 20px; position: relative; top: 1px;"></i><a href="#" style="position: relative; bottom: 5px; left: 8px; font-family: 'cwTeXYen', sans-serif;">粉專連結</a>
+                    </div>                
+                    <br/><br/>
+                    <div class="team_mem">
+                        <p class="job1">專案經理</p><p class="name">洪于軫</p>
+                        <p class="job2">行銷公關</p><p class="name">李玟</p></div>
+                    <div class="team_mem">
+                        <p class="job1">內容設計</p><p class="name">侯亭妤</p>
+                        <p class="job2">視覺設計</p><p class="name">沈育秀</p></div>
+                </li>
+                <li class="team_inform2">
+                    <h4>專題簡介</h4>
+                    <p>在人際關係裡，親子關係深深影響一個人的價值觀，而情緒勒索也常常存在於親子關係之中，無論是父母對子女，或者是子女對父母，有時不經意就會互相傷害，希望觀展者能夠透過這個展覽，審思自己所處的親子關係是否健康。<br/><br/>指導老師：莊道明</p>           
+                    <br/><br/><br/><br/><br/>
+                    <a class="back" href="#">回小組一覽》</a>
+                </li>
+            </ul>                                  
         </div>
-        <div class="team9_intro">                
-            <div class="team_inform1">
-                <div class="team_title">
+        <div class="team9_intro">
+            <ul>
+                <li class="team_inform1">
+                    <div class="team_title">
                     <img src="img/scarecrow.png">
                     <h3>末班工作室</h3>
-                </div>          
-                <img src="img/team4_photo.png" style="width: 350px; height: 200px; margin-top: 15px;">
-                <br/><br/>
-                <div class="team_work1">
-                    <i class='fas fa-tv' style="font-size: 22px;"></i><a href="#" style="position: relative; bottom: 3px; left: 8px; font-family: 'cwTeXYen', sans-serif;">作品連結</a>
-                    <i class='far fa-file-pdf' style="font-size: 26px; margin-left: 22px; position: relative; top: 2px;"></i><a href="#" style="position: relative; bottom: 3px; left: 12px; font-family: 'cwTeXYen', sans-serif;">企畫書連結</a>
-                </div>
-                <br/>
-                <div class="team_work2">
-                    <i class='fab fa-facebook-square' style="font-size: 30px;"></i><a href="#" style="position: relative; bottom: 5px; left: 9px; font-family: 'cwTeXYen', sans-serif;">粉專連結</a>
-                    <i class='fab fa-instagram' style="font-size: 30px; margin-left: 20px; position: relative; top: 1px;"></i><a href="#" style="position: relative; bottom: 5px; left: 8px; font-family: 'cwTeXYen', sans-serif;">粉專連結</a>
-                </div>                
-                <br/><br/>
-                <div class="team_mem">
-                    <p class="job1">專案經理</p><p class="name">唐苡晴</p>
-                    <p class="job2">內容設計</p><p class="name">莊浣茜</p></div>
-                <div class="team_mem">
-                    <p class="job1">前端設計</p><p class="name">邱旻鋒</p>
-                    <p class="job2">後端設計</p><p class="name">洪霆揚</p></div>
-                <div class="team_mem">
-                    <p class="job1">視覺設計</p><p class="name">閻美瑄</p></div>
-            </div>
-            <div class="team_inform2">
-                <h4>專題簡介</h4>
-                <p>時至今日，過去發生的種種、前人的輝煌及血淚，已經剩下只能看見痕跡的遺址以及紙上記載著，毫無溫度的記錄及數據。我們希望透過富有帶入感的桌遊以及互動式網頁，一步步讓你身歷其境在你從未深入了解過的歷史事件中，帶給你一點一滴的線索讓你抽絲剝繭出事件的真相。參與者將以親身帶入的方式品味這段歷史，並藉此反思自身所認定的「正義」究竟代表了甚麼。本團隊極力製作實境模擬的數位型桌上遊戲，龐大的故事觀絕對值得讓你意猶未盡的一玩再玩！<br/><br/>指導老師：黃昭謀</p>           
-                <br/><br/><br/><br/><br/>
-                <a class="back" href="#">回小組一覽》</a>
-            </div>                      
+                    </div>          
+                    <img src="img/team4_photo.png" class="team_photo">
+                    <br/><br/>
+                    <div class="team_work1">
+                        <i class='fas fa-tv' style="font-size: 22px;"></i><a href="#" style="position: relative; bottom: 3px; left: 8px; font-family: 'cwTeXYen', sans-serif;">作品連結</a>
+                        <i class='far fa-file-pdf' style="font-size: 26px; margin-left: 22px; position: relative; top: 2px;"></i><a href="#" style="position: relative; bottom: 3px; left: 12px; font-family: 'cwTeXYen', sans-serif;">企畫書連結</a>
+                    </div>
+                    <br/>
+                    <div class="team_work2">
+                        <i class='fab fa-facebook-square' style="font-size: 30px;"></i><a href="#" style="position: relative; bottom: 5px; left: 9px; font-family: 'cwTeXYen', sans-serif;">粉專連結</a>
+                        <i class='fab fa-instagram' style="font-size: 30px; margin-left: 20px; position: relative; top: 1px;"></i><a href="#" style="position: relative; bottom: 5px; left: 8px; font-family: 'cwTeXYen', sans-serif;">粉專連結</a>
+                    </div>                
+                    <br/><br/>
+                    <div class="team_mem">
+                        <p class="job1">專案經理</p><p class="name">唐苡晴</p>
+                        <p class="job2">內容設計</p><p class="name">莊浣茜</p></div>
+                    <div class="team_mem">
+                        <p class="job1">前端設計</p><p class="name">邱旻鋒</p>
+                        <p class="job2">後端設計</p><p class="name">洪霆揚</p></div>
+                    <div class="team_mem">
+                        <p class="job1">視覺設計</p><p class="name">閻美瑄</p></div>
+                </li>
+                <li class="team_inform2">
+                    <h4>專題簡介</h4>
+                    <p>時至今日，過去發生的種種、前人的輝煌及血淚，已經剩下只能看見痕跡的遺址以及紙上記載著，毫無溫度的記錄及數據。我們希望透過富有帶入感的桌遊以及互動式網頁，一步步讓你身歷其境在你從未深入了解過的歷史事件中，帶給你一點一滴的線索讓你抽絲剝繭出事件的真相。參與者將以親身帶入的方式品味這段歷史，並藉此反思自身所認定的「正義」究竟代表了甚麼。本團隊極力製作實境模擬的數位型桌上遊戲，龐大的故事觀絕對值得讓你意猶未盡的一玩再玩！<br/><br/>指導老師：黃昭謀</p>   
+                    <br/><br/><br/><br/><br/>
+                    <a class="back" href="#">回小組一覽》</a>
+                </li>
+            </ul>                       
         </div>
-        <div class="team10_intro">                
-            <div class="team_inform1">
-                <div class="team_title">
+        <div class="team10_intro">
+            <ul>
+                <li class="team_inform1">
+                    <div class="team_title">
                     <img src="img/scarecrow.png">
                     <h3>大腦先生</h3>
-                </div>          
-                <img src="img/team4_photo.png" style="width: 350px; height: 200px; margin-top: 15px;">
-                <br/><br/>
-                <div class="team_work1">
-                    <i class='fas fa-tv' style="font-size: 22px;"></i><a href="#" style="position: relative; bottom: 3px; left: 8px; font-family: 'cwTeXYen', sans-serif;">作品連結</a>
-                    <i class='far fa-file-pdf' style="font-size: 26px; margin-left: 22px; position: relative; top: 2px;"></i><a href="#" style="position: relative; bottom: 3px; left: 12px; font-family: 'cwTeXYen', sans-serif;">企畫書連結</a>
-                </div>
-                <br/>
-                <div class="team_work2">
-                    <i class='fab fa-facebook-square' style="font-size: 30px;"></i><a href="#" style="position: relative; bottom: 5px; left: 9px; font-family: 'cwTeXYen', sans-serif;">粉專連結</a>
-                    <i class='fab fa-instagram' style="font-size: 30px; margin-left: 20px; position: relative; top: 1px;"></i><a href="#" style="position: relative; bottom: 5px; left: 8px; font-family: 'cwTeXYen', sans-serif;">粉專連結</a>
-                </div>                
-                <br/><br/>
-                <div class="team_mem">
-                    <p class="job1">專案經理</p><p class="name">黃鉦淯</p>
-                    <p class="job2">行銷公關</p><p class="name">林靜穎</p></div>
-                <div class="team_mem">
-                    <p class="job1">文書處理</p><p class="name">張曉瑜</p>
-                    <p class="job2">財務管理</p><p class="name">廖亭瑄</p></div>
-                <div class="team_mem">
-                    <p class="job1">視覺設計</p><p class="name">蘇琦芳</p></div>
-            </div>
-            <div class="team_inform2">
-                <h4>專題簡介</h4>
-                <p>大腦是一個很奇妙的地方，而情感也是，人類具有情感，卻沒有證據可以指出為何人類會產生如此的情感，而快樂就是其中一個例子。我們將通過各項實驗，用最簡顯易懂的方法，讓閱聽人能夠輕而易舉地了解我們想要說什麼。<br/><br/>指導老師：陳貞妃</p>           
-                <br/><br/><br/><br/><br/>
-                <a class="back" href="#">回小組一覽》</a>
-            </div>                      
+                    </div>          
+                    <img src="img/team4_photo.png" class="team_photo">
+                    <br/><br/>
+                    <div class="team_work1">
+                        <i class='fas fa-tv' style="font-size: 22px;"></i><a href="#" style="position: relative; bottom: 3px; left: 8px; font-family: 'cwTeXYen', sans-serif;">作品連結</a>
+                        <i class='far fa-file-pdf' style="font-size: 26px; margin-left: 22px; position: relative; top: 2px;"></i><a href="#" style="position: relative; bottom: 3px; left: 12px; font-family: 'cwTeXYen', sans-serif;">企畫書連結</a>
+                    </div>
+                    <br/>
+                    <div class="team_work2">
+                        <i class='fab fa-facebook-square' style="font-size: 30px;"></i><a href="#" style="position: relative; bottom: 5px; left: 9px; font-family: 'cwTeXYen', sans-serif;">粉專連結</a>
+                        <i class='fab fa-instagram' style="font-size: 30px; margin-left: 20px; position: relative; top: 1px;"></i><a href="#" style="position: relative; bottom: 5px; left: 8px; font-family: 'cwTeXYen', sans-serif;">粉專連結</a>
+                    </div>                
+                    <br/><br/>
+                    <div class="team_mem">
+                        <p class="job1">專案經理</p><p class="name">黃鉦淯</p>
+                        <p class="job2">行銷公關</p><p class="name">林靜穎</p></div>
+                    <div class="team_mem">
+                        <p class="job1">文書處理</p><p class="name">張曉瑜</p>
+                        <p class="job2">財務管理</p><p class="name">廖亭瑄</p></div>
+                    <div class="team_mem">
+                        <p class="job1">視覺設計</p><p class="name">蘇琦芳</p></div>
+                </li>
+                <li class="team_inform2">
+                    <h4>專題簡介</h4>
+                    <p>大腦是一個很奇妙的地方，而情感也是，人類具有情感，卻沒有證據可以指出為何人類會產生如此的情感，而快樂就是其中一個例子。我們將通過各項實驗，用最簡顯易懂的方法，讓閱聽人能夠輕而易舉地了解我們想要說什麼。<br/><br/>指導老師：陳貞妃</p>
+                    <br/><br/><br/><br/><br/>
+                    <a class="back" href="#">回小組一覽》</a>
+                </li>
+            </ul>                               
         </div>
-        <div class="team11_intro">                
-            <div class="team_inform1">
-                <div class="team_title">
+        <div class="team11_intro">
+            <ul>
+                <li class="team_inform1">
+                    <div class="team_title">
                     <img src="img/scarecrow.png">
                     <h3>FPG遊戲頻道</h3>
-                </div>          
-                <img src="img/team4_photo.png" style="width: 350px; height: 200px; margin-top: 15px;">
-                <br/><br/>
-                <div class="team_work1">
-                    <i class='fas fa-tv' style="font-size: 22px;"></i><a href="#" style="position: relative; bottom: 3px; left: 8px; font-family: 'cwTeXYen', sans-serif;">作品連結</a>
-                    <i class='far fa-file-pdf' style="font-size: 26px; margin-left: 22px; position: relative; top: 2px;"></i><a href="#" style="position: relative; bottom: 3px; left: 12px; font-family: 'cwTeXYen', sans-serif;">企畫書連結</a>
-                </div>
-                <br/>
-                <div class="team_work2">
-                    <i class='fab fa-facebook-square' style="font-size: 30px;"></i><a href="#" style="position: relative; bottom: 5px; left: 9px; font-family: 'cwTeXYen', sans-serif;">粉專連結</a>
-                    <i class='fab fa-instagram' style="font-size: 30px; margin-left: 20px; position: relative; top: 1px;"></i><a href="#" style="position: relative; bottom: 5px; left: 8px; font-family: 'cwTeXYen', sans-serif;">粉專連結</a>
-                </div>                
-                <br/><br/>
-                <div class="team_mem">
-                    <p class="job1">專案經理</p><p class="name">羅淵</p>
+                    </div>          
+                    <img src="img/team4_photo.png" class="team_photo">
+                    <br/><br/>
+                    <div class="team_work1">
+                        <i class='fas fa-tv' style="font-size: 22px;"></i><a href="#" style="position: relative; bottom: 3px; left: 8px; font-family: 'cwTeXYen', sans-serif;">作品連結</a>
+                        <i class='far fa-file-pdf' style="font-size: 26px; margin-left: 22px; position: relative; top: 2px;"></i><a href="#" style="position: relative; bottom: 3px; left: 12px; font-family: 'cwTeXYen', sans-serif;">企畫書連結</a>
                     </div>
-            </div>
-            <div class="team_inform2">
-                <h4>專題簡介</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, voluptatum! Suscipit voluptates, reprehenderit tempora qui iste laboriosam eius, vero cupiditate, architecto quod beatae accusamus blanditiis. Soluta facilis animi, omnis quisquam?<br/><br/>指導老師：莊道明</p>  
-                <br/><br/><br/><br/><br/>
-                <a class="back" href="#">回小組一覽》</a>
-            </div>                      
+                    <br/>
+                    <div class="team_work2">
+                        <i class='fab fa-facebook-square' style="font-size: 30px;"></i><a href="#" style="position: relative; bottom: 5px; left: 9px; font-family: 'cwTeXYen', sans-serif;">粉專連結</a>
+                        <i class='fab fa-instagram' style="font-size: 30px; margin-left: 20px; position: relative; top: 1px;"></i><a href="#" style="position: relative; bottom: 5px; left: 8px; font-family: 'cwTeXYen', sans-serif;">粉專連結</a>
+                    </div>                
+                    <br/><br/>
+                    <div class="team_mem">
+                        <p class="job1">專案經理</p><p class="name">羅淵</p>
+                    </div>
+                </li>
+                <li class="team_inform2">
+                    <h4>專題簡介</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, voluptatum! Suscipit voluptates, reprehenderit tempora qui iste laboriosam eius, vero cupiditate, architecto quod beatae accusamus blanditiis. Soluta facilis animi, omnis quisquam?<br/><br/>指導老師：莊道明</p>  
+                    <br/><br/><br/><br/><br/>
+                    <a class="back" href="#">回小組一覽》</a>
+                </li>
+            </ul>                               
         </div>
-        <div class="team12_intro">                
-            <div class="team_inform1">
-                <div class="team_title">
+        <div class="team12_intro">
+            <ul>
+                <li class="team_inform1">
+                    <div class="team_title">
                     <img src="img/scarecrow.png">
                     <h3>FeetU</h3>
-                </div>          
-                <img src="img/team4_photo.png" style="width: 350px; height: 200px; margin-top: 15px;">
-                <br/><br/>
-                <div class="team_work1">
-                    <i class='fas fa-tv' style="font-size: 22px;"></i><a href="#" style="position: relative; bottom: 3px; left: 8px; font-family: 'cwTeXYen', sans-serif;">作品連結</a>
-                    <i class='far fa-file-pdf' style="font-size: 26px; margin-left: 22px; position: relative; top: 2px;"></i><a href="#" style="position: relative; bottom: 3px; left: 12px; font-family: 'cwTeXYen', sans-serif;">企畫書連結</a>
-                </div>
-                <br/>
-                <div class="team_work2">
-                    <i class='fab fa-facebook-square' style="font-size: 30px;"></i><a href="#" style="position: relative; bottom: 5px; left: 9px; font-family: 'cwTeXYen', sans-serif;">粉專連結</a>
-                    <i class='fab fa-instagram' style="font-size: 30px; margin-left: 20px; position: relative; top: 1px;"></i><a href="#" style="position: relative; bottom: 5px; left: 8px; font-family: 'cwTeXYen', sans-serif;">粉專連結</a>
-                </div>                
-                <br/><br/>
-                <div class="team_mem">
-                    <p class="job1">專案經理</p><p class="name">牟峻成</p>
-                    <p class="job2">小組成員</p><p class="name">畢戎忻</p></div>
-            </div>
-            <div class="team_inform2">
-                <h4>專題簡介</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae nesciunt, odio provident reprehenderit voluptatibus sed molestias eos temporibus, minima sapiente sint consequatur asperiores maxime! Est quibusdam voluptas quia dolorum dicta!<br/><br/>指導老師：</p>   
-                <br/><br/><br/><br/><br/>
-                <a class="back" href="#">回小組一覽》</a>
-            </div>                      
+                    </div>          
+                    <img src="img/team4_photo.png" class="team_photo">
+                    <br/><br/>
+                    <div class="team_work1">
+                        <i class='fas fa-tv' style="font-size: 22px;"></i><a href="#" style="position: relative; bottom: 3px; left: 8px; font-family: 'cwTeXYen', sans-serif;">作品連結</a>
+                        <i class='far fa-file-pdf' style="font-size: 26px; margin-left: 22px; position: relative; top: 2px;"></i><a href="#" style="position: relative; bottom: 3px; left: 12px; font-family: 'cwTeXYen', sans-serif;">企畫書連結</a>
+                    </div>
+                    <br/>
+                    <div class="team_work2">
+                        <i class='fab fa-facebook-square' style="font-size: 30px;"></i><a href="#" style="position: relative; bottom: 5px; left: 9px; font-family: 'cwTeXYen', sans-serif;">粉專連結</a>
+                        <i class='fab fa-instagram' style="font-size: 30px; margin-left: 20px; position: relative; top: 1px;"></i><a href="#" style="position: relative; bottom: 5px; left: 8px; font-family: 'cwTeXYen', sans-serif;">粉專連結</a>
+                    </div>                
+                    <br/><br/>
+                    <div class="team_mem">
+                        <p class="job1">專案經理</p><p class="name">牟峻成</p>
+                        <p class="job2">小組成員</p><p class="name">畢戎忻</p></div>
+                </li>
+                <li class="team_inform2">
+                    <h4>專題簡介</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae nesciunt, odio provident reprehenderit voluptatibus sed molestias eos temporibus, minima sapiente sint consequatur asperiores maxime! Est quibusdam voluptas quia dolorum dicta!<br/><br/>指導老師：</p>   
+                    <br/><br/><br/><br/><br/>
+                    <a class="back" href="#">回小組一覽》</a>
+                </li>
+            </ul>                               
         </div>            
         </div>
         <div id="curation">

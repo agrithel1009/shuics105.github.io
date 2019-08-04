@@ -28,6 +28,11 @@ $(document).ready(function() {
 			}
 		});
 	});
+	$('#inform a').click(function(){
+		event.preventDefault();
+		$('html,body').animate({scrollTop: $('#intro').offset().top}, 1800);
+		return false;
+	});
 	$('.curator > li, .team-list > li > ul').ready(function() {
 		$('.curator > li, .team-list > li > ul').hide();
 	});
@@ -160,8 +165,9 @@ $(document).ready(function() {
 	});
 	$('.back').click(function(){
 		event.preventDefault();
-		$(this).parent().parent().hide();
-		$('.team-menu').fadeIn(500);
-		$('#team h2').fadeIn(500);
+		$(this).parent().parent().parent().hide();
+		$('.team-menu, #team h2').fadeIn(500);
+		$('html,body').animate({scrollTop:$('#team').offset().top},800);
+		return false;
 	});
 });
