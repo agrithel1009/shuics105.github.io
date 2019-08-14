@@ -94,7 +94,7 @@ a:hover{
 	float:left;
 }
 #inform{
-	background: url('../img/banner_ll.png') fixed right top;
+	background: url('../img/banner_ll.png') no-repeat contain;
 	height: 100vh;
 	text-align: center;
 }
