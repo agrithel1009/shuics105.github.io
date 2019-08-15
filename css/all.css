@@ -66,7 +66,6 @@ a:hover{
 }
 .menuclear{
 	clear:both;
-	padding: 10px;
 }
 .fan{
 	text-align: center; 
@@ -81,6 +80,13 @@ a:hover{
 	text-align: center;
 	font-family: 'cwTeXYen', sans-serif;
 }
+.rightfooter_all{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	margin-bottom: 10px;
+	margin-left: 6px;
+}
 .ham, #topmenu, #topmenu a{
 	display: none;
 }
@@ -94,7 +100,7 @@ a:hover{
 	float:left;
 }
 #inform{
-	background: url('../img/banner_ll.png') no-repeat;
+	background: url('../img/banner_ll.png');
 	background-size: cover;
 	height: 100vh;
 	text-align: center;
@@ -102,7 +108,7 @@ a:hover{
 #inform img{
 	height: 60px; 
 	width: 130px; 
-	margin-top: 500px;
+	margin-top: 515px;
 }
 #intro, #team, #curation, #feedback, #sponsor{
 	padding: 30px 70px;
@@ -330,10 +336,6 @@ a:hover{
 }
 .content{
 	margin-left: 0px;
-}
-#inform{
-	background: url('../img/banner_ll.png') fixed no-repeat left top;
-	height: 100vh;
 }
 #intro{
 	padding: 30px 30px;
