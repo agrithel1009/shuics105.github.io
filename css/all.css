@@ -47,7 +47,7 @@ a:hover{
 .rightmenu ul{
 	float:left;
 	width: 150px;
-	margin: 20px 0px 0px 0px;
+	margin: 25px 0px 0px 0px;
 }
 .rightmenu a{
 	float:left;
@@ -100,7 +100,7 @@ a:hover{
 	float:left;
 }
 #inform{
-	background: url('../img/banner_ll.png');
+	background: url('../img/banner_ll.png') fixed;
 	background-size: cover;
 	height: 100vh;
 	text-align: center;
@@ -126,158 +126,44 @@ a:hover{
 	background: #EEC343;
 }
 #team{
-	background: url(../img/map1.jpg) left top fixed;
+	background: url(../img/team.png) left top;
+	background-size: cover;
 }
 #team h2, #curation h2, #feedback h2, #sponsor h2{
 	text-align: right;
 	font-size: 24px;
 	font-family: 'cwTeXYen', sans-serif;
 }
+.team-menu ul img{
+	width: 200px;
+	height: 200px;
+	margin-bottom: 10px;
+}
+.team-menu ul li img{
+	width: 100px; 
+	height: 70px; 
+	margin-bottom: 5px;
+}
+.team-menu ul{
+	display: inline-block;
+	margin-right: 50px;
+	text-align: center;
+}
+.team-menu ul li{
+	margin-bottom: 10px;
+	display: inline-block;
+	font-family: 'cwTeXYen', sans-serif;
+	opacity: 0;
+}
 .curator{
-	margin: 0px auto 10px auto;
-	text-align: center;
-	font-size: 24px;
-	font-family: 'cwTeXYen', sans-serif;
-	width: 70%;
-}
-.curator li{
-	margin-top: 10px;
-}
-.team-list{
-	margin: auto;
-	text-align: center;
-	width: 70%;
-	font-family: 'cwTeXYen', sans-serif;
-	font-size: 18px;
-}
-.team-list li{
-	display: inline-block;
-	width: 250px;
-	height: 100px;
-}
-.team-list li a{
-	display: inline-block;
-	margin-top: 15px;
-}
-.team-list li ul li{
-	display: inline;
-	height: 100px;
-	margin: 0px 5px;
-}
-.team1_intro, .team2_intro, .team3_intro, .team4_intro, .team5_intro, .team6_intro, 
-.team7_intro, .team8_intro, .team9_intro, .team10_intro, .team11_intro, .team12_intro{
-	display: none; 
-	margin-left: 80px;
-}
-.team_inform1{
-	display: inline-block;
-	text-align: center;
-}
-.team_title{
-	margin-left: -20px;
-}
-.team_title img{
-	width: 52px; 
-	height: 52px; 
-	margin-right: 5px; 
-	display: inline;
-}
-.team_title h3{
-	font-size: 38px; 
-	font-weight: bold; 
-	font-family: 'cwTeXYen', sans-serif; 
-	display: inline; 
-	position: relative; 
-	bottom: 9px;
-}
-.team_photo{
-	width: 80%; 
-	height: 60%; 
-	margin-top: 15px;
-}
-.team_work1{
-	margin-left: 0px;
-	margin-top: 10px;
-}
-.team_work2{
-	margin-left: -10px;
-}
-.team_mem{	
-	margin-bottom: 15px;
-}
-.job1{
-	display: inline; 
-	font-size: 18px; 
-	font-weight: bold; 
-	font-family: 'cwTeXYen', sans-serif;
-}
-.job2{
-	display: inline; 
-	font-size: 18px; 
-	font-weight: bold; 
-	font-family: 'cwTeXYen', sans-serif;
-	margin-left: 10px;
-}
-.name{
-	display: inline; 
-	font-family: 'cwTeXYen', sans-serif; 
-	font-size: 18px;
-	margin-left: 5px;
-}
-/*再修*/
-.team_inform2{
-	display:inline-block;
-	width: 40%; 
-	margin-left: 30px;
 	position: relative;
-	bottom: 55px;
+	top: 150px;
+	left: 775px;
 }
-.team2_intro .team_inform2{
-	bottom: 160px;
-}
-.team3_intro .team_inform2{
-	bottom: 85px;
-}
-.team4_intro .team_inform2{
-	bottom: 105px;
-}
-.team5_intro .team_inform2{
-	bottom: 160px;
-}
-.team6_intro .team_inform2{
-	bottom: 175px;
-}
-.team7_intro .team_inform2{
-	bottom: 90px;
-}
-.team8_intro .team_inform2{
-	bottom: 105px;
-}
-.team9_intro .team_inform2{
-	bottom: 50px;
-}
-.team10_intro .team_inform2{
-	bottom: 140px;
-}
-.team11_intro .team_inform2{
-	bottom: 40px;
-}
-.team12_intro .team_inform2{
-	bottom: 55px;
-}
-.team_inform2 h4{
-	font-size: 22px; 
-	font-weight: bold; 
-	margin-bottom: 10px; 
-	font-family: 'cwTeXYen', sans-serif;
-}
-.team_inform2 p{
-	font-family: 'cwTeXYen', sans-serif; 
-	font-size: 18px;
-}
-.back{
-	font-family: 'cwTeXYen', sans-serif;
-	float: right;
+.scarecrow, .robot, .lion{
+	position: relative;
+	left: -60px;
+	top: -200px;
 }
 .footer{
 	display: none;
@@ -337,6 +223,11 @@ a:hover{
 .content{
 	margin-left: 0px;
 }
+#inform img{
+	height: 60px; 
+	width: 130px; 
+	margin-top: 515px;
+}
 #intro{
 	padding: 30px 30px;
 }
@@ -347,63 +238,33 @@ a:hover{
 	height: 100%;
 	padding-top: 80px;
 }
-
-.team1_intro, .team2_intro, .team3_intro, .team4_intro, .team5_intro, .team6_intro, 
-.team7_intro, .team8_intro, .team9_intro, .team10_intro, .team11_intro, .team12_intro{
-	margin-left: 0px;
+#team{
+	background: url(../img/map1.jpg) fixed left top;
 }
-.team_inform1{
-	display: block;
-}
-
-.team_inform2{
-	display:block;
-	width: 100%;
+.team-menu{
 	text-align: center;
-	margin-left: 0px;
-	margin-top: 50px;
-	bottom: 0;
 }
-.team2_intro .team_inform2{
-	bottom: 0px;
+.team-menu ul{
+	display: inline-block;
+	text-align: center;
+	width: 205px;
 }
-.team3_intro .team_inform2{
-	bottom: 0px;
+.team-menu ul li{
+	margin-bottom: 10px;
+	display: inline-block;
+	font-family: 'cwTeXYen', sans-serif;
+	opacity: 1;
 }
-.team4_intro .team_inform2{
-	bottom: 0px;
+.curator{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	margin-bottom: 30px;
 }
-.team5_intro .team_inform2{
-	bottom: 0px;
-}
-.team6_intro .team_inform2{
-	bottom: 0px;
-}
-.team7_intro .team_inform2{
-	bottom: 0px;
-}
-.team8_intro .team_inform2{
-	bottom: 0px;
-}
-.team9_intro .team_inform2{
-	bottom: 0px;
-}
-.team10_intro .team_inform2{
-	bottom: 0px;
-}
-.team11_intro .team_inform2{
-	bottom: 0px;
-}
-.team12_intro .team_inform2{
-	bottom: 0px;
-}
-.team_photo{
-	width: 60%; 
-	height: 40%; 
-	margin-top: 15px;
-}
-.back{
-	float: none;
+.scarecrow, .robot, .lion{
+	position: relative;
+	left: 0px;
+	top: 0px;
 }
 .contentclear{
 	clear:both;
@@ -424,6 +285,11 @@ a:hover{
 
 @media(max-width: 880px)  {
 
+#inform img{
+	height: 60px; 
+	width: 130px; 
+	margin-top: 515px;
+}
 .curator{
 	width: 100%;
 }
