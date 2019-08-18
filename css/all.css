@@ -167,7 +167,7 @@ a:hover{
 .curator{
 	position: relative;
 	top: 160px;
-	left: 750px;
+	left: 730px;
 }
 .scarecrow{
 	position: relative;
@@ -177,12 +177,12 @@ a:hover{
 .robot{
 	position: relative;
 	top:-200px;
-	left: 10px;
+	left: -10px;
 }
 .lion{
 	position: relative;
 	top:-200px;
-	left: 45px;
+	left: 35px;
 }
 .footer{
 	display: none;
