@@ -163,17 +163,17 @@ a:hover{
 .scarecrow{
 	position: relative;
 	top:-200px;
-	left: -80px;
+	left: -85px;
 }
 .robot{
 	position: relative;
 	top:-200px;
-	left: -75px;
+	left: -80px;
 }
 .lion{
 	position: relative;
 	top:-200px;
-	left: -75px;
+	left: -80px;
 }
 .footer{
 	display: none;
