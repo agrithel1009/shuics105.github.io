@@ -107,8 +107,8 @@ a:hover{
 }
 #inform img{
 	height: 60px; 
-	width: 130px; 
-	margin-top: 515px;
+	width: 130px;
+	margin-top: 510px;
 }
 #intro, #team, #curation, #feedback, #sponsor{
 	padding: 30px 70px;
@@ -134,46 +134,55 @@ a:hover{
 	font-size: 24px;
 	font-family: 'cwTeXYen', sans-serif;
 }
-.team-menu ul img{
-	width: 200px;
-	height: 200px;
-	margin-bottom: 10px;
-}
-.team-menu ul li img{
-	width: 100px; 
-	height: 70px; 
-	margin-bottom: 5px;
-}
 .team-menu ul{
 	display: inline-block;
 	text-align: center;
-	width: 25%;
+}
+.team-menu ul img{
+	width: 200px;
+	height: 200px;
 }
 .team-menu ul li{
-	margin-bottom: 10px;
+	margin-bottom: 8px;
+	margin-right: 3px;
 	display: inline-block;
 	font-family: 'cwTeXYen', sans-serif;
 	opacity: 0;
+	transition: .5s ease;
+}
+.team-menu ul li img{
+	width: 90px; 
+	height: 70px; 
+	margin-bottom: 5px;
+	transition: .5s ease;
+}
+.team-menu ul li img:hover{
+	opacity: 0.8;
+}
+.team-menu ul li a{
+	color: white;
+	font-size: 18px;
+	text-shadow: 1px 1px 3px black;
 }
 .curator{
 	position: relative;
-	top: 150px;
-	left: 775px;
+	top: 160px;
+	left: 730px;
 }
 .scarecrow{
 	position: relative;
-	top:-200px;
-	left: -85px;
+	top:-205px;
+	left: -60px;
 }
 .robot{
 	position: relative;
 	top:-200px;
-	left: -80px;
+	left: -10px;
 }
 .lion{
 	position: relative;
 	top:-200px;
-	left: -80px;
+	left: 35px;
 }
 .footer{
 	display: none;

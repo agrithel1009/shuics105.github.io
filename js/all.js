@@ -39,11 +39,7 @@ $(document).ready(function() {
 		$(this).parent().find('li').css("opacity","1");
 	});
 	$('.curator2, .scarecrow2, .robot2, .lion2').ready(function() {
-		$('.curator2, .scarecrow2, .robot2, .lion2').hide();
-	});
-	$('.curator').hover(function() {
-		$('.curator1').toggle();
-		$('.curator2').toggle();
+		$('.scarecrow2, .robot2, .lion2').hide();
 	});
 	$('.scarecrow').hover(function() {
 		$('.scarecrow1').toggle();
