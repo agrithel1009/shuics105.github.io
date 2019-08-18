@@ -137,7 +137,6 @@ a:hover{
 .team-menu ul{
 	display: inline-block;
 	text-align: center;
-	width: 25%;
 }
 .team-menu ul img{
 	width: 200px;
@@ -179,11 +178,13 @@ a:hover{
 	position: relative;
 	top:-200px;
 	left: -10px;
+	width: 200px;
 }
 .lion{
 	position: relative;
 	top:-200px;
 	left: 35px;
+	width: 300px;
 }
 .footer{
 	display: none;
