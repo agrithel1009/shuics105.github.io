@@ -1,3 +1,19 @@
+[class*="col-"] {
+  float: left;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
 #team{
 	background: url(../img/map2.jpg);
 	background-size: cover;
@@ -6,19 +22,14 @@
 	display: none;
 	margin-left: 100px;
 }
-.team_intro1{
-	width: 40%;
-	float: left;
-}
 .team_intro2{
-	width: 50%;
-	float: left;
-	margin-top: 105px;
+	margin-left: 80px;
 }
 .team_intro h4{
 	font-size: 22px; 
-	font-weight: bold; 
-	margin-bottom: 10px; 
+	font-weight: bold;
+	margin-top: 40px;
+	margin-bottom: 20px; 
 }
 .team_intro p{
 	font-size: 18px; 
@@ -41,11 +52,13 @@
 	left: -15px;
 }
 .team_photo{
-	width: 300px; 
-	height: 200px; 
+	width: 100%; 
+	height: 200px;
+	margin-top: 5px;
+	margin-bottom: -15px;
 }
 .team_work{
-	margin-left: 45px;
+	margin-top: 10px;
 }
 .team_work1, .team_work2{
 	margin-top: 15px;
@@ -54,13 +67,13 @@
 	margin-bottom: 15px;
 	margin-left: 20px;
 }
-.job1, .job2{
+.team_mem div{
+	margin-bottom: 10px;
+}
+.job{
 	display: inline; 
 	font-size: 18px; 
-	font-weight: bold; 
-}
-.job2{
-	margin-left: 10px;
+	color: brown;
 }
 .name{
 	display: inline; 
@@ -75,26 +88,14 @@
 
 @media(max-width: 1040px)  {
 
-.team_intro{
-	margin-left: 0px;
-}
-.team_intro1{
-	width: auto;
-	float: none;
-}
-.team_intro2{
-	width: auto;
-	margin-top: 10px;
-	float: none;
-}
-.back{
-	float: none;
-}
+
 
 }
 
 /*--------------------------------------------響應式網頁設定(手機)--------------------------------------------*/
 
 @media(max-width: 880px)  {
+
+
 
 }
