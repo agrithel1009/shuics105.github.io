@@ -1,5 +1,5 @@
 #team{
-	background: url(../img/map2.jpg) fixed;
+	background: url(../img/map2.jpg);
 	background-size: cover;
 }
 .team_intro{
@@ -23,9 +23,6 @@
 .team_intro p{
 	font-size: 18px; 
 }
-.team_inform1{
-	display: inline-block;
-}
 .team_title{
 	margin-left: 0px;
 }
@@ -47,11 +44,15 @@
 	width: 300px; 
 	height: 200px; 
 }
+.team_work{
+	margin-left: 45px;
+}
 .team_work1, .team_work2{
 	margin-top: 15px;
 }
 .team_mem{	
 	margin-bottom: 15px;
+	margin-left: 20px;
 }
 .job1, .job2{
 	display: inline; 
@@ -73,6 +74,22 @@
 /*--------------------------------------------響應式網頁設定(平板)--------------------------------------------*/
 
 @media(max-width: 1040px)  {
+
+.team_intro{
+	margin-left: 0px;
+}
+.team_intro1{
+	width: auto;
+	float: none;
+}
+.team_intro2{
+	width: auto;
+	margin-top: 10px;
+	float: none;
+}
+.back{
+	float: none;
+}
 
 }
 
