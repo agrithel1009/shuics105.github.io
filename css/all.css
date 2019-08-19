@@ -1,6 +1,9 @@
 /*圓體*/
 @import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
 
+.wrap{
+	font-family: 'cwTeXYen', sans-serif;
+}
 a{
 	text-decoration: none;
 	color: black;
@@ -55,7 +58,6 @@ a:hover{
 	height: 22px;
 	text-align: right;
 	padding: 7px 11px 0px 0px;
-	font-family: 'cwTeXYen', sans-serif;
 }
 .rightmenu a:hover{
 	background: #FFE495;
@@ -78,7 +80,6 @@ a:hover{
 .rightfooter{
 	font-size: 12px;
 	text-align: center;
-	font-family: 'cwTeXYen', sans-serif;
 }
 .rightfooter_all{
 	position: absolute;
@@ -117,7 +118,6 @@ a:hover{
 #intro h2{
 	text-align: left;
 	font-size: 26px;
-	font-family: 'cwTeXYen', sans-serif;
 }
 #intro p{
 	padding: 25px;
@@ -132,11 +132,11 @@ a:hover{
 #team h2, #curation h2, #feedback h2, #sponsor h2{
 	text-align: right;
 	font-size: 24px;
-	font-family: 'cwTeXYen', sans-serif;
 }
 .team-menu ul{
 	display: inline-block;
 	text-align: center;
+	width: 26%;
 }
 .team-menu ul img{
 	width: 200px;
@@ -146,7 +146,6 @@ a:hover{
 	margin-bottom: 8px;
 	margin-right: 3px;
 	display: inline-block;
-	font-family: 'cwTeXYen', sans-serif;
 	opacity: 0;
 	transition: .5s ease;
 }
@@ -167,24 +166,15 @@ a:hover{
 .curator{
 	position: relative;
 	top: 160px;
-	left: 730px;
+	left: 700px;
+}
+.scarecrow, .robot, .lion{
+	position: relative;
+	top:-200px;
+	left: -85px;
 }
 .scarecrow{
-	position: relative;
 	top:-205px;
-	left: -55px;
-}
-.robot{
-	position: relative;
-	top:-200px;
-	left: -10px;
-	width: 200px;
-}
-.lion{
-	position: relative;
-	top:-200px;
-	left: 35px;
-	width: 300px;
 }
 .footer{
 	display: none;
@@ -236,7 +226,6 @@ a:hover{
 	display: block;
 	text-align: center;
 	padding: 10px 0px;
-	font-family: 'cwTeXYen', sans-serif;
 }
 .header ul{
 	display: none;
@@ -273,7 +262,6 @@ a:hover{
 .team-menu ul li{
 	margin-bottom: 10px;
 	display: inline-block;
-	font-family: 'cwTeXYen', sans-serif;
 	opacity: 1;
 }
 .curator{
@@ -294,7 +282,6 @@ a:hover{
 	display: block;
 	height: 50px;
 	background: #EEC343;
-	font-family: 'cwTeXYen', sans-serif;
 }
 .footer p{
 	text-align: center;
