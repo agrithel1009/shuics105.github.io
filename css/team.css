@@ -24,8 +24,6 @@
 .team_intro{
 	display: none;
 }
-.team_intro2{
-}
 .team_intro h4{
 	font-size: 22px; 
 	font-weight: bold;
@@ -85,8 +83,9 @@
 
 @media(max-width: 1040px)  {
 
-#team{
-	height: 100vh;
+.teamclear{
+	clear: both;
+	padding-top: 40px;
 }
 
 }
@@ -95,12 +94,15 @@
 
 @media(max-width: 880px)  {
 
-#team{
-	height: 100vh;
-}
-
 [class*="col-"] {
 	width: 100%;
 }
+.content{
+	text-align: center;
+}
+.back{
+	float: none;
+}
+
 
 }

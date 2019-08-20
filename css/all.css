@@ -124,7 +124,7 @@ a:hover{
 	background: #EEC343;
 }
 #team{
-	background: url(../img/team1.png) left top;
+	background: url(../img/team1.png);
 	background-size: cover;
 }
 #team h2, #curation h2, #feedback h2, #sponsor h2{
@@ -134,7 +134,20 @@ a:hover{
 .team-menu ul{
 	display: inline-block;
 	text-align: center;
-	width: 26%;
+}
+.curator{
+	position: relative;
+	top: 160px;
+	left: 730px;
+}
+.scarecrow, .robot, .lion{
+	position: relative;
+	top:-200px;
+	left: -85px;
+	width: 25%;
+}
+.scarecrow{
+	top:-205px;
 }
 .team-menu ul img{
 	width: 200px;
@@ -160,19 +173,6 @@ a:hover{
 	color: white;
 	font-size: 18px;
 	text-shadow: 1px 1px 3px black;
-}
-.curator{
-	position: relative;
-	top: 160px;
-	left: 700px;
-}
-.scarecrow, .robot, .lion{
-	position: relative;
-	top:-200px;
-	left: -85px;
-}
-.scarecrow{
-	top:-205px;
 }
 .footer{
 	display: none;
