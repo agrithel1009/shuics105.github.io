@@ -60,6 +60,9 @@
 .team_mem{	
 	margin-bottom: 15px;
 }
+.team_mem span{
+	margin: 0px 10px;
+}
 .team_mem div{
 	margin-bottom: 10px;
 }
@@ -72,11 +75,11 @@
 	margin-left: 5px;
 }
 .team_teach{
-	margin-top: 20px;
+	margin-top: 30px;
 }
 .back{
 	float: right;
-	margin-top: 40px;
+	margin-top: 60px;
 }
 
 /*--------------------------------------------響應式網頁設定(平板)--------------------------------------------*/
@@ -114,10 +117,14 @@
 	margin-top: -10px;
 }
 .team_photo{
-	margin-bottom: 40px;
+	margin-bottom: 50px;
 }
 .team_mem div{
 	margin-bottom: 20px;
+}
+.team_work{
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 .team_des{
 	padding: 0px 70px;
