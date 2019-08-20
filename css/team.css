@@ -14,16 +14,17 @@
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
-#team{
-	background: url(../img/map2.jpg);
+.content{
+	background: url(../img/map2.jpg) fixed;
 	background-size: cover;
+}
+#team{
+	background: none;
 }
 .team_intro{
 	display: none;
-	margin-left: 100px;
 }
 .team_intro2{
-	margin-left: 80px;
 }
 .team_intro h4{
 	font-size: 22px; 
@@ -33,9 +34,6 @@
 }
 .team_intro p{
 	font-size: 18px; 
-}
-.team_title{
-	margin-left: 0px;
 }
 .team_title img{
 	width: 100px; 
@@ -52,7 +50,7 @@
 	left: -15px;
 }
 .team_photo{
-	width: 100%; 
+	width: 300px; 
 	height: 200px;
 	margin-top: 5px;
 	margin-bottom: -15px;
@@ -87,7 +85,9 @@
 
 @media(max-width: 1040px)  {
 
-
+#team{
+	height: 100vh;
+}
 
 }
 
@@ -95,6 +95,12 @@
 
 @media(max-width: 880px)  {
 
+#team{
+	height: 100vh;
+}
 
+[class*="col-"] {
+	width: 100%;
+}
 
 }
