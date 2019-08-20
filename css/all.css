@@ -134,14 +134,13 @@ a:hover{
 .team-menu ul{
 	display: inline-block;
 	text-align: center;
+	position: relative;
 }
 .curator{
-	position: relative;
 	top: 160px;
 	left: 730px;
 }
 .scarecrow, .robot, .lion{
-	position: relative;
 	top:-200px;
 	left: -85px;
 	width: 25%;
@@ -241,6 +240,7 @@ a:hover{
 	padding: 30px 30px;
 }
 #team{
+	background: url(../img/map1.jpg) fixed;
 	padding-bottom: 40px;
 }
 #intro, #team, #curation, #feedback, #sponsor{
@@ -295,9 +295,7 @@ a:hover{
 @media(max-width: 880px)  {
 
 #inform img{
-	height: 60px; 
-	width: 130px; 
-	margin-top: 515px;
+	margin-top: 580px;
 }
 .curator{
 	width: 100%;
