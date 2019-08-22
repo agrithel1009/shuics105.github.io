@@ -17,7 +17,8 @@
 .content{
 	background: url(../img/map2.jpg) fixed;
 	background-size: cover;
-	height: 100vh;
+	height: 100%;
+	padding-bottom: 40px;
 }
 .team_intro{
 	display: none;
@@ -54,8 +55,33 @@
 	margin-top: 40px;
 	margin-bottom: 40px;
 }
-.team_work1, .team_work2{
-	margin-top: 15px;
+.work{
+	position: relative; 
+	width: 25%;
+	display: inline-block;
+}
+.work img{
+	opacity: 1; 
+	display: block; 
+	width: 100px;  
+	height: 100px; 
+	transition: .5s ease;
+	backface-visibility: hidden;
+	background: white;
+}
+.middle{
+	transition: .5s ease; 
+	opacity: 0; 
+	position: absolute; 
+	top: 50%; 
+	left: 50%; 
+	transform: translate(-50%, -50%);
+	width: 100px;
+	height: 100px;
+	background: #4CAF50;
+}
+.work:hover .middle {
+  opacity: 1;
 }
 .team_mem{	
 	margin-bottom: 15px;
@@ -74,12 +100,15 @@
 	display: inline; 
 	margin-left: 5px;
 }
+.team_des{
+	line-height: 1.2;
+}
 .team_teach{
-	margin-top: 30px;
+	margin-top: 20px;
 }
 .back{
 	float: right;
-	margin-top: 60px;
+	margin-top: 30px;
 }
 
 /*--------------------------------------------響應式網頁設定(平板)--------------------------------------------*/
@@ -93,11 +122,11 @@
 	padding-top: 110px;
 	margin-left: 150px;
 }
+
 .teamclear{
 	clear: both;
 	padding-top: 40px;
 }
-
 }
 
 /*--------------------------------------------響應式網頁設定(手機)--------------------------------------------*/
@@ -127,7 +156,7 @@
 	margin-bottom: 50px;
 }
 .team_des{
-	padding: 0px 70px;
+	padding: 0px 40px;
 }
 .team_des p{
 	text-align: left;

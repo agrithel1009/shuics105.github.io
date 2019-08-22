@@ -139,11 +139,12 @@ a:hover{
 .curator{
 	top: 160px;
 	left: 730px;
+	width: 24%;
 }
 .scarecrow, .robot, .lion{
 	top:-200px;
 	left: -85px;
-	width: 25%;
+	width: 25.6%;
 }
 .scarecrow{
 	top:-205px;
