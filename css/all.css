@@ -14,7 +14,7 @@ a:hover{
 	position: fixed;
 	bottom: 0;
 	right: 0;
-	margin-bottom: 25px;
+	margin-bottom: 15px;
 	background: #74A8D4;
 	color: white;
 	text-align: center;
@@ -108,6 +108,9 @@ a:hover{
 	width: 130px;
 	margin-top: 510px;
 }
+.inform{
+	display: none;
+}
 #intro, #team, #curation, #feedback, #sponsor{
 	padding: 30px 70px;
 	height: 100vh;
@@ -138,7 +141,6 @@ a:hover{
 .curator{
 	top: 160px;
 	left: 730px;
-	width: 24%;
 }
 .scarecrow, .robot, .lion{
 	top:-200px;
@@ -231,11 +233,6 @@ a:hover{
 	margin-left: 0px;
 	float: none;
 }
-#inform img{
-	height: 60px; 
-	width: 130px; 
-	margin-top: 515px;
-}
 #intro{
 	padding: 30px 30px;
 }
@@ -294,8 +291,18 @@ a:hover{
 
 @media(max-width: 880px)  {
 
-#inform img{
-	margin-top: 580px;
+.inform{
+	display: block;
+	background: white;
+	opacity: 0.8;
+	width: 250px;
+	height: 130px;
+	text-align: left;
+	padding: 15px;
+	font-size: 18px;
+	position: relative;
+	top: 250px;
+	left: 40px;
 }
 .curator{
 	width: 100%;
