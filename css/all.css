@@ -244,7 +244,8 @@ a:hover{
 	padding: 30px 30px;
 }
 #team{
-	background: url(../img/map1.jpg) no-repeat;
+	background: url(../img/map1.jpg);
+	background-size: cover;
 	padding-bottom: 40px;
 }
 #intro, #team, #curation, #feedback, #sponsor{
