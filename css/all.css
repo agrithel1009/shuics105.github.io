@@ -99,7 +99,7 @@ a:hover{
 	float:left;
 }
 #inform{
-	background: url('../img/banner_ll.png') fixed right center;
+	background: url('../img/banner_l.png') fixed left;
 	background-size: cover;
 	height: 100vh;
 	text-align: center;
@@ -296,7 +296,7 @@ a:hover{
 @media(max-width: 880px)  {
 
 #inform img{
-	margin-top: 620px;
+	margin-top: 580px;
 }
 .curator{
 	width: 100%;
