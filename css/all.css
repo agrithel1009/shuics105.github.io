@@ -101,12 +101,19 @@ a:hover{
 	background: url('../img/banner_l.png') fixed left;
 	background-size: cover;
 	height: 100vh;
-	text-align: center;
 }
-#inform img{
-	height: 60px; 
-	width: 130px;
-	margin-top: 510px;
+#inform a{
+	display: block;
+	background: green;
+	color: white;
+	font-size: 24px;
+	height: 35px; 
+	width: 160px;
+	text-align: center;
+	margin: 0px auto;
+	position: relative;
+	top: 510px;
+	padding-top: 10px;
 }
 .inform{
 	display: none;

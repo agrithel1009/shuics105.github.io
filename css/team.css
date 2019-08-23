@@ -56,32 +56,14 @@
 	margin-bottom: 40px;
 }
 .work{
-	position: relative; 
-	width: 25%;
-	display: inline-block;
-}
-.work img{
-	opacity: 1; 
-	display: block; 
-	width: 100px;  
-	height: 100px; 
-	transition: .5s ease;
-	backface-visibility: hidden;
 	background: white;
-}
-.middle{
-	transition: .5s ease; 
-	opacity: 0; 
-	position: absolute; 
-	top: 50%; 
-	left: 50%; 
-	transform: translate(-50%, -50%);
 	width: 100px;
 	height: 100px;
-	background: #4CAF50;
+	transition: 0.3s ease;
 }
-.work:hover .middle {
-  opacity: 1;
+.work:hover{
+	background: url('../img/map1.jpg');
+	background-size: contain;
 }
 .team_mem{	
 	margin-bottom: 15px;
