@@ -143,6 +143,7 @@ a:hover{
 .curator{
 	top: 160px;
 	left: 730px;
+	width: 25%;
 }
 .scarecrow, .robot, .lion{
 	top:-200px;
