@@ -3,7 +3,7 @@ $(document).ready(function() {
 		event.preventDefault();
 		$('html,body').animate({scrollTop: 0},1600);
 		return false;
-	})
+	});
 	$('.ham').click(function() {
 		$('#topmenu').slideToggle(600);
 	});
