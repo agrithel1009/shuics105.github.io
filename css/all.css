@@ -11,6 +11,7 @@ a:hover{
 	color: #FFE495;
 }
 .top{
+	display: block;
 	position: fixed;
 	bottom: 0;
 	right: 0;
@@ -23,6 +24,22 @@ a:hover{
 	font-size: 14px;
 }
 .top:hover{
+	color: white;
+}
+.top1{
+	display: block;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	margin-bottom: 70px;
+	background: #74A8D4;
+	color: white;
+	text-align: center;
+	padding: 11.5px;
+	line-height: 1.2;
+	font-size: 14px;
+}
+.top1:hover{
 	color: white;
 }
 .header{
@@ -142,16 +159,16 @@ a:hover{
 }
 .curator{
 	top: 160px;
-	left: 730px;
+	left: 690px;
 	width: 30%;
 }
 .scarecrow, .robot, .lion{
-	top:-200px;
+	top:-150px;
 	left: -82px;
 	width: 25.6%;
 }
 .scarecrow{
-	top:-205px;
+	top:-155px;
 }
 .team-menu ul img{
 	width: 200px;
