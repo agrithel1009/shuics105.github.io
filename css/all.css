@@ -152,20 +152,22 @@ a:hover{
 	text-align: right;
 	font-size: 24px;
 }
+#team h2{
+	display: none;
+}
 .team-menu ul{
 	display: inline-block;
 	text-align: center;
-	position: relative;
 }
 .curator{
-	top: 160px;
-	left: 690px;
-	width: 30%;
+	float: right;
+	margin-right: 5%;
+	margin-top: 16%;
 }
 .scarecrow, .robot, .lion{
-	top:-150px;
-	left: -82px;
-	width: 25.6%;
+	width: 20%;
+	margin-left: -5%;
+	margin-right: 9.51%;
 }
 .scarecrow{
 	top:-155px;
@@ -260,6 +262,9 @@ a:hover{
 	background: url(../img/map1.jpg);
 	background-size: cover;
 	padding-bottom: 40px;
+}
+#team h2{
+	display: block;
 }
 #intro, #team, #curation, #feedback, #sponsor{
 	height: 100%;
