@@ -44,7 +44,7 @@ $(document).ready(function() {
 			$ul = $slide.find('ul'),
 			_width = $slide.width(),
 			_left = _width * -1,
-			_animateSpeed = 400;
+			_animateSpeed = 1600;
 		$ul.find('li:first').before($ul.find('li:last')).end().css({
 			left: _left,
 			width: _width * ($ul.find('li').length+1)

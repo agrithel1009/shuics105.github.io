@@ -138,29 +138,33 @@ a:hover{
 	background: #EEC343;
 }
 #team{
-	background: url(../img/team1.png);
+	background: url(../img/team.png);
 	background-size: cover;
 }
-#intro h2, #team h2, #curation h2, #feedback h2, #sponsor h2{
+#team h2, #curation h2, #feedback h2, #sponsor h2{
 	text-align: right;
 	font-size: 24px;
 }
-#team h2{
+#team h2, #intro h2{
 	display: none;
 }
+#intro{
+	background: url('../img/poppy.png');
+	background-size: cover;
+}
 #frame{
-	margin: 0 auto;
-	width: 700px;
-	height: 300px;
+	margin: 50px auto;
+	width: 850px;
+	height: 400px;
 	position: relative;
-	border: 1px solid red;
+	border: 10px solid brown;
 }
 .slide{
 	display: inline-block;
 	overflow: hidden;
 	position: relative;
-	width: 700px;
-	height: 300px;
+	width: 850px;
+	height: 400px;
 }
 .slide ul{
 	position: absolute;
@@ -168,17 +172,25 @@ a:hover{
 	height: 100%
 }
 .slide li{
-	width: 700px;
+	width: 850px;
 	height: 100%;
 	float: left;
+	background: url('../img/map.jpg');
+	background-size: cover;
+}
+.slide p{
+	margin: 50px;
+}
+.slide img{
+	width: 850px;
+	height: 400px;
 }
 .prev, .next{
 	display: block;
-	width: 50px;
-	height: 50px;
-	background: red;
-	top: 125px;
+	top: 180px;
 	position: absolute;
+	font-size: 40px;
+	font-weight: bold;
 }
 .next{
 	right: 0;
@@ -297,7 +309,7 @@ a:hover{
 	background-size: cover;
 	padding-bottom: 40px;
 }
-#team h2{
+#team h2, #intro h2{
 	display: block;
 }
 #intro, #team, #curation, #feedback, #sponsor{
