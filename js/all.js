@@ -38,6 +38,33 @@ $(document).ready(function() {
 		$('html,body').animate({scrollTop: $('#intro').offset().top}, 1800);
 		return false;
 	});
+	$(function(){
+		var $block = $('#frame'),
+			$slide = $block.find('.slide'),
+			$ul = $slide.find('ul'),
+			_width = $slide.width(),
+			_left = _width * -1,
+			_animateSpeed = 400;
+		$ul.find('li:first').before($ul.find('li:last')).end().css({
+			left: _left,
+			width: _width * ($ul.find('li').length+1)
+		});
+		$block.find('a.prev').click(function(){
+			$ul.stop(false,true).animate({'left':_left+_width},_animateSpeed,function(){
+				$ul.find('li:first').before($ul.find('li:last')).end().css('left',_left);
+			});
+			return false;
+		});
+		$block.find('a.next').click(function(){
+			$ul.stop(false,true).animate({'left':_left-_width},_animateSpeed, function(){
+				$ul.find('li:last').after($ul.find('li:first')).end().css('left', _left);
+			});
+			return false;
+		});
+		$block.find('a').focus(function(){
+			this.blur();
+		});
+	});
 	$('.team-menu > ul > a').click(function() {
 		event.preventDefault();
 		$(this).parent().siblings().find('li').css("opacity","0");
