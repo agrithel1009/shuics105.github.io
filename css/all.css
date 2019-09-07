@@ -26,6 +26,9 @@ a:hover{
 .top:hover{
 	color: white;
 }
+.fb-customerchat{
+	border: 1px solid black;
+}
 .header{
 	width: 151px;
 	height: 100%;
