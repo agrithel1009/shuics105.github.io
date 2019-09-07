@@ -11,23 +11,7 @@ a:hover{
 	color: #FFE495;
 }
 .top{
-	display: block;
-	position: fixed;
-	bottom: 0;
-	right: 0;
-	margin-bottom: 15px;
-	background: #74A8D4;
-	color: white;
-	text-align: center;
-	padding: 10px;
-	line-height: 1.2;
-	font-size: 14px;
-}
-.top:hover{
-	color: white;
-}
-.fb-customerchat{
-	border: 1px solid black;
+	display: none;
 }
 .header{
 	width: 151px;
@@ -289,6 +273,22 @@ a:hover{
 .content{
 	margin-left: 0px;
 	float: none;
+}
+.top{
+	display: block;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	margin-bottom: 15px;
+	background: #74A8D4;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	line-height: 1.2;
+	font-size: 14px;
+}
+.top:hover{
+	color: white;
 }
 #intro{
 	padding: 30px 30px;
