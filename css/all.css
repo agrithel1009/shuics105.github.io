@@ -26,22 +26,6 @@ a:hover{
 .top:hover{
 	color: white;
 }
-.top1{
-	display: block;
-	position: fixed;
-	bottom: 0;
-	right: 0;
-	margin-bottom: 70px;
-	background: #74A8D4;
-	color: white;
-	text-align: center;
-	padding: 11.5px;
-	line-height: 1.2;
-	font-size: 14px;
-}
-.top1:hover{
-	color: white;
-}
 .header{
 	width: 151px;
 	height: 100%;
@@ -157,7 +141,7 @@ a:hover{
 	width: 850px;
 	height: 400px;
 	position: relative;
-	border: 10px solid brown;
+	border: 15px solid brown;
 }
 .slide{
 	display: inline-block;
@@ -187,10 +171,12 @@ a:hover{
 }
 .prev, .next{
 	display: block;
-	top: 180px;
+	top: 170px;
 	position: absolute;
-	font-size: 40px;
-	font-weight: bold;
+}
+.prev img, .next img{
+	width: 65px;
+	height: 65px;
 }
 .next{
 	right: 0;

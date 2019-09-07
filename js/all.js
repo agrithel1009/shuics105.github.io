@@ -4,11 +4,6 @@ $(document).ready(function() {
 		$('html,body').animate({scrollTop: 0},1600);
 		return false;
 	});
-	$('.top1').click(function(){
-		event.preventDefault();
-		$('html,body').css("opacity","0.7");
-		return false;
-	});
 	$('.ham').click(function() {
 		$('#topmenu').slideToggle(600);
 	});

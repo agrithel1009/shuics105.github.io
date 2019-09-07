@@ -24,7 +24,32 @@
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/all.js"></script>
 </head>
-<body>
+<body><!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v4.0'
+          });
+        };
+
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/zh_TW/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+      <!-- Your customer chat code -->
+      <div class="fb-customerchat"
+        attribution=setup_tool
+        page_id="617318325111269"
+  theme_color="#74A8D4"
+  logged_in_greeting="嗨！我們是綠野先鋒，想和我們聊聊什麼呢？"
+  logged_out_greeting="嗨！我們是綠野先鋒，想和我們聊聊什麼呢？">
+      </div>
 <div class="wrap">
     <div class="header">
         <div class="logo">
@@ -55,7 +80,7 @@
         <div class="rightfooter_all">
             <div class="fan">
             <a href="https://www.facebook.com/oz.shuics" target="_blank"><i class='fab fa-facebook-square'></i></a>
-            <a href="#" target="_blank"><i class='fab fa-instagram'></i></a>
+            <a href="https://www.instagram.com/2019icsgc/" target="_blank"><i class='fab fa-instagram'></i></a>
             </div>                 
             <div class="rightfooter">
                 <p>｜2019世新資傳畢業展覽｜</p>
@@ -63,7 +88,7 @@
         </div>                
     </div>        
     <div class="content">
-        <a href="#" class="top1" style="display: none;">按我</a>
+        <a href="#" class="messenger"></a>
         <a href="#" class="top">↑<br/>TOP</a>        
         <div id="inform">
             <div class="inform">
@@ -86,8 +111,8 @@
                         <li><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam dolore odio expedita voluptatibus consequatur voluptatem molestiae deleniti consectetur harum ex perferendis enim molestias ipsa necessitatibus, impedit adipisci alias commodi veniam!</p></li>
                     </ul>
                 </div>
-                <a href="#" class="prev">《</a>
-                <a href="#" class="next">》</a>
+                <a href="#" class="prev"><img src="img/prev.png"></a>
+                <a href="#" class="next"><img src="img/next.png"></a>
             </div>            
         </div>
         <div id="team">
@@ -135,7 +160,7 @@
         </div>
         <div id="sponsor">
         <h2>贊助感謝</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate consequatur reprehenderit, voluptatem deserunt explicabo culpa quos doloremque nisi ipsa, saepe temporibus neque aliquid. Consectetur quam voluptatum dolores eligendi numquam cum?</p>  
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate consequatur reprehenderit, voluptatem deserunt explicabo culpa quos doloremque nisi ipsa, saepe temporibus neque aliquid. Consectetur quam voluptatum dolores eligendi numquam cum?</p>
         </div>        
     </div>
     <div class="contentclear"></div>        
