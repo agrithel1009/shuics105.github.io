@@ -307,33 +307,28 @@ a:hover{
 	padding-top: 80px;
 }
 .team-menu{
-	text-align: center;
+	position: static;
 }
 .team-menu ul{
+	position: static;
 	display: inline-block;
-	text-align: center;
-	width: 205px;
+}
+.team-menu ul img{
+	width: 200px;
+	height: 200px;
+}
+.team-menu ul li img{
+	width: 90px; 
+	height: 70px; 
+	margin-bottom: 5px;
+	transition: .5s ease;
 }
 .team-menu ul li{
-	margin-bottom: 10px;
-	display: inline-block;
 	opacity: 1;
 }
 .team-menu ul li a{
 	color: black;
-	font-size: 18px;
 	text-shadow: none;
-}
-.curator{
-	float: none;
-	margin-right: 0%;
-	margin-top: 0%;
-}
-.scarecrow, .robot, .lion{
-	width: 0%;
-	margin-left: 0%;
-	margin-right: 0%;
-	margin-top: 0%;
 }
 .contentclear{
 	clear:both;
@@ -407,8 +402,5 @@ a:hover{
 .prev img, .next img{
 	width: 44px;
 	height: 44px;
-}
-.curator{
-	width: 100%;
 }
 }
