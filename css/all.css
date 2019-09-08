@@ -113,11 +113,11 @@ a:hover{
 	background: url(../img/team.png);
 	background-size: cover;
 }
-#team h2, #curation h2, #feedback h2, #sponsor h2{
+#intro h2, #team h2, #curation h2, #feedback h2, #sponsor h2{
 	text-align: right;
 	font-size: 24px;
 }
-#team h2, #intro h2{
+#intro h2, #team h2{
 	display: none;
 }
 #intro{
@@ -301,10 +301,16 @@ a:hover{
 	padding-bottom: 40px;
 	text-align: center;
 }
-#team h2, #intro h2{
+#intro h2, #team h2, #curation h2, #feedback h2, #sponsor h2{
+	text-align: left;
+}
+#team h2{
 	display: block;
 }
-#intro, #team, #curation, #feedback, #sponsor{
+#intro{
+	height: 100vh;
+}
+#team, #curation, #feedback, #sponsor{
 	height: 100%;
 	padding-top: 80px;
 }
