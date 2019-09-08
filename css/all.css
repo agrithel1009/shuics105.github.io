@@ -97,7 +97,7 @@ a:hover{
 	width: 160px;
 	position: absolute;
 	top: 86%;
-	left: 42%;
+	left: 40%;
 }
 .inform{
 	display: none;
@@ -279,13 +279,14 @@ a:hover{
 .top{
 	display: block;
 	position: fixed;
-	bottom: 0;
-	right: 0;
-	margin-bottom: 15px;
+	bottom: 90px;
+	right: 35px;
 	background: #74A8D4;
+	border: 1px solid #74A8D4;
+	border-radius: 40px;
+	padding: 10px;
 	color: white;
 	text-align: center;
-	padding: 10px;
 	line-height: 1.2;
 	font-size: 14px;
 }
@@ -375,6 +376,9 @@ a:hover{
 	position: relative;
 	top: 350px;
 	left: 50px;
+}
+#inform img{
+	left: 36%;
 }
 #frame{
 	display: none;
