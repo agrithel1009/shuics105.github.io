@@ -64,28 +64,28 @@
 	background: url('../img/work_web.png');
 }
 .web:hover{
-	background: url('../img/map1.jpg');
+	background: url('../img/map.jpg');
 	background-size: contain;
 }
 .pdf{
 	background: url('../img/work_pdf.png');
 }
 .pdf:hover{
-	background: url('../img/map1.jpg');
+	background: url('../img/map.jpg');
 	background-size: contain;
 }
 .fb{
 	background: url('../img/work_fb.png');
 }
 .fb:hover{
-	background: url('../img/map1.jpg');
+	background: url('../img/map.jpg');
 	background-size: contain;
 }
 .ig{
 	background: url('../img/work_ig.png');
 }
 .ig:hover{
-	background: url('../img/map1.jpg');
+	background: url('../img/map.jpg');
 	background-size: contain;
 }
 .team_mem{	
