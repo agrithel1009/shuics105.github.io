@@ -36,7 +36,7 @@ a:hover{
 .rightmenu ul{
 	float:left;
 	width: 150px;
-	margin: 25px 0px 0px 0px;
+	margin: 20px 0px 0px 0px;
 }
 .rightmenu a{
 	float:left;
@@ -124,9 +124,12 @@ a:hover{
 	background: url('../img/poppy.png');
 	background-size: cover;
 }
+#frame2{
+	display: none;
+}
 #frame{
-	margin: 50px auto;
-	width: 850px;
+	margin: 5% auto;
+	width: 800px;
 	height: 400px;
 	position: relative;
 	border: 15px solid brown;
@@ -135,7 +138,7 @@ a:hover{
 	display: inline-block;
 	overflow: hidden;
 	position: relative;
-	width: 850px;
+	width: 800px;
 	height: 400px;
 }
 .slide ul{
@@ -144,7 +147,7 @@ a:hover{
 	height: 100%
 }
 .slide li{
-	width: 850px;
+	width: 800px;
 	height: 100%;
 	float: left;
 	background: url('../img/map.jpg');
@@ -154,7 +157,7 @@ a:hover{
 	margin: 50px;
 }
 .slide img{
-	width: 850px;
+	width: 800px;
 	height: 400px;
 }
 .prev, .next{
@@ -365,6 +368,52 @@ a:hover{
 	position: relative;
 	top: 350px;
 	left: 50px;
+}
+#frame{
+	display: none;
+}
+#frame2{
+	display: block;
+	margin: 50px auto;
+	width: 300px;
+	height: 400px;
+	position: relative;
+	border: 10px solid brown;
+}
+.slide2{
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	width: 300px;
+	height: 400px;
+}
+.slide2 ul{
+	position: absolute;
+	width: 999px;
+	height: 100%
+}
+.slide2 li{
+	width: 300px;
+	height: 100%;
+	float: left;
+	background: url('../img/map.jpg');
+	background-size: cover;
+}
+.slide2 p{
+	margin: 50px;
+}
+.slide2 img{
+	width: 300px;
+	height: 400px;
+}
+.prev2, .next2{
+	display: block;
+	top: 170px;
+	position: absolute;
+}
+.prev2 img, .next2 img{
+	width: 44px;
+	height: 44px;
 }
 .curator{
 	width: 100%;
