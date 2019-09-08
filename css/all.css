@@ -280,7 +280,7 @@ a:hover{
 	display: block;
 	position: fixed;
 	bottom: 95px;
-	right: 28px;
+	right: 26px;
 	background: #74A8D4;
 	border: 1px solid #74A8D4;
 	border-radius: 40px;
@@ -309,19 +309,19 @@ a:hover{
 #team h2{
 	display: block;
 }
-#intro{
-	height: 100vh;
-}
-#team, #curation, #feedback, #sponsor{
+#intro, #team, #curation, #feedback, #sponsor{
 	height: 100%;
 	padding-top: 80px;
+}
+#intro{
+	height: 100vh;
 }
 .team-menu{
 	position: static;
 }
 .team-menu h3{
 	display: block;
-	font-size: 20px;
+	font-size: 24px;
 }
 .team-menu ul{
 	position: static;
