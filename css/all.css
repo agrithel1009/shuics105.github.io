@@ -124,11 +124,11 @@ a:hover{
 	background: url('../img/poppy.png');
 	background-size: cover;
 }
-#frame2{
+#frame-m{
 	display: none;
 }
 #frame{
-	margin: 5% auto;
+	margin: 6% auto;
 	width: 800px;
 	height: 400px;
 	position: relative;
@@ -152,9 +152,6 @@ a:hover{
 	float: left;
 	background: url('../img/map.jpg');
 	background-size: cover;
-}
-.slide p{
-	margin: 50px;
 }
 .slide img{
 	width: 800px;
@@ -372,7 +369,7 @@ a:hover{
 #frame{
 	display: none;
 }
-#frame2{
+#frame-m{
 	display: block;
 	margin: 50px auto;
 	width: 300px;
@@ -380,38 +377,34 @@ a:hover{
 	position: relative;
 	border: 10px solid brown;
 }
-.slide2{
+.slide-m{
 	display: inline-block;
 	overflow: hidden;
 	position: relative;
 	width: 300px;
 	height: 400px;
 }
-.slide2 ul{
+.slide-m ul{
 	position: absolute;
 	width: 999px;
 	height: 100%
 }
-.slide2 li{
+.slide-m li{
 	width: 300px;
 	height: 100%;
 	float: left;
 	background: url('../img/map.jpg');
 	background-size: cover;
 }
-.slide2 p{
+.slide-m p{
 	margin: 50px;
 }
-.slide2 img{
-	width: 300px;
-	height: 400px;
-}
-.prev2, .next2{
+.prev, .next{
 	display: block;
 	top: 170px;
 	position: absolute;
 }
-.prev2 img, .next2 img{
+.prev img, .next img{
 	width: 44px;
 	height: 44px;
 }

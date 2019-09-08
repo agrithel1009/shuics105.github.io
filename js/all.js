@@ -61,8 +61,8 @@ $(document).ready(function() {
 		});
 	});
 	$(function(){
-		var $block = $('#frame2'),
-			$slide = $block.find('.slide2'),
+		var $block = $('#frame-m'),
+			$slide = $block.find('.slide-m'),
 			$ul = $slide.find('ul'),
 			_width = $slide.width(),
 			_left = _width * -1,
