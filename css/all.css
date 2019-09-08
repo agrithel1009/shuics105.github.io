@@ -97,7 +97,7 @@ a:hover{
 	width: 160px;
 	position: absolute;
 	top: 86%;
-	left: 40%;
+	left: 42%;
 }
 .inform{
 	display: none;
@@ -105,6 +105,9 @@ a:hover{
 #intro, #team, #curation, #feedback, #sponsor{
 	padding: 30px 70px;
 	height: 100vh;
+}
+#curation p, #feedback p, #sponsor p{
+	padding: 25px;
 }
 #feedback{
 	background: #EEC343;
@@ -254,20 +257,27 @@ a:hover{
 	width: 50px;
 	padding-top:16px;
 }
+.ham a:hover{
+	color: black;
+}
 .ham i{
 	font-size: 32px;
 }
 #topmenu{
 	width: 100%;
-	height: 216px;
-	background: #87AED1;
+	height: 100vh;
+	background: #FFE495;
 	color:white;
 	float: left;
 }
 #topmenu a{
 	display: block;
 	text-align: center;
-	padding: 10px 0px;
+	font-size: 20px;
+	padding-top: 6%;
+}
+#topmenu a:hover{
+	color: black;
 }
 .header ul{
 	display: none;
@@ -280,11 +290,11 @@ a:hover{
 	display: block;
 	position: fixed;
 	bottom: 95px;
-	right: 26px;
+	right: 25px;
 	background: #74A8D4;
 	border: 1px solid #74A8D4;
-	border-radius: 40px;
-	padding: 14px;
+	border-radius: 50px;
+	padding: 15px;
 	color: white;
 	text-align: center;
 	line-height: 1.2;
@@ -375,11 +385,8 @@ a:hover{
 	padding: 15px;
 	font-size: 18px;
 	position: relative;
-	top: 350px;
-	left: 50px;
-}
-#inform img{
-	left: 36%;
+	margin: 0 auto;
+	top: 50%;
 }
 #frame{
 	display: none;
@@ -425,6 +432,9 @@ a:hover{
 }
 #intro h2, #team h2, #curation h2, #feedback h2, #sponsor h2{
 	text-align: center;
+}
+.team-menu h3{
+	font-size: 22px;
 }
 .team-menu ul li{
 	margin: 4px;
