@@ -280,11 +280,11 @@ a:hover{
 	display: block;
 	position: fixed;
 	bottom: 95px;
-	right: 30px;
+	right: 28px;
 	background: #74A8D4;
 	border: 1px solid #74A8D4;
 	border-radius: 40px;
-	padding: 12px;
+	padding: 14px;
 	color: white;
 	text-align: center;
 	line-height: 1.2;
