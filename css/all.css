@@ -296,7 +296,7 @@ a:hover{
 	padding: 30px 30px;
 }
 #team{
-	background: url(../img/map1.jpg);
+	background: url(../img/map.jpg);
 	background-size: cover;
 	padding-bottom: 40px;
 	text-align: center;
@@ -331,6 +331,7 @@ a:hover{
 .team-menu ul li img{
 	width: 340px; 
 	height: 260px;
+	margin-bottom: 10px;
 }
 .team-menu ul li{
 	margin: 10px;
@@ -416,6 +417,9 @@ a:hover{
 .prev img, .next img{
 	width: 44px;
 	height: 44px;
+}
+#intro h2, #team h2, #curation h2, #feedback h2, #sponsor h2{
+	text-align: center;
 }
 .team-menu ul li{
 	margin: 4px;
