@@ -92,12 +92,11 @@ a:hover{
 	position: relative;
 }
 #inform img{
-	display: block;
 	height: 50px; 
 	width: 160px;
 	position: absolute;
-	top: 86%;
-	left: 42%;
+	top: 85%;
+	left: 45%
 }
 .inform{
 	display: none;
@@ -387,6 +386,9 @@ a:hover{
 	position: relative;
 	margin: 0 auto;
 	top: 50%;
+}
+#inform img{
+	left: 30%
 }
 #frame{
 	display: none;
