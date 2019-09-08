@@ -95,15 +95,15 @@ $(document).ready(function() {
 	$('.curator2, .scarecrow2, .robot2, .lion2').ready(function() {
 		$('.scarecrow2, .robot2, .lion2').hide();
 	});
-	$('.scarecrow').hover(function() {
+	$('.scarecrow > a').hover(function() {
 		$('.scarecrow1').toggle();
 		$('.scarecrow2').toggle();
 	});
-	$('.robot').hover(function() {
+	$('.robot > a').hover(function() {
 		$('.robot1').toggle();
 		$('.robot2').toggle();
 	});
-	$('.lion').hover(function() {
+	$('.lion > a').hover(function() {
 		$('.lion1').toggle();
 		$('.lion2').toggle();
 	});
