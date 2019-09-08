@@ -89,14 +89,15 @@ a:hover{
 	background: url('../img/banner_l.png') fixed left;
 	background-size: cover;
 	height: 100vh;
+	position: relative;
 }
 #inform img{
 	display: block;
 	height: 50px; 
 	width: 160px;
-	margin: 0px auto;
-	position: relative;
-	top: 510px;
+	position: absolute;
+	top: 88%;
+	left: 42%;
 }
 .inform{
 	display: none;
