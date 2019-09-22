@@ -90,25 +90,25 @@ a:hover{
 	background-size: cover;
 	height: 100vh;
 	position: relative;
-	text-align: center;
 }
 #inform img{
 	height: 50px; 
 	width: 160px;
 	position: absolute;
 	top: 85%;
+	margin-left: 43%;
 }
 .inform{
 	display: none;
 }
-#intro, #team, #curation, #feedback, #sponsor{
+#intro, #team, #curation, #sponsor{
 	padding: 30px 70px;
 	height: 100vh;
 }
-#curation p, #feedback p, #sponsor p{
+#curation p, #sponsor p{
 	padding: 25px;
 }
-#sponsor{
+#curation{
 	background: #EEC343;
 }
 #team{
@@ -126,9 +126,9 @@ a:hover{
 	text-align: center;
 }
 #curation img, #sponsor img{
-	width: 600px;
+	width: 60%;
 	height: auto;
-	margin-top: 200px;
+	margin: 25% 0;
 }
 #intro{
 	background: url('../img/poppy.png');
@@ -357,11 +357,11 @@ a:hover{
 	top: 180px;
 	position: absolute;
 	color: white;
-	font-size: 44px;
+	font-size: 40px;
+	background: brown;
 }
-.prev img, .next img{
-	width: 44px;
-	height: 44px;
+.prev:hover, .next:hover{
+	color: black;
 }
 .next{
 	right: 0;
@@ -372,7 +372,7 @@ a:hover{
 .team-menu h3{
 	display: none;
 }
-.team-menu ul{
+.team-menu ul, .curator{
 	text-align: center;
 	position: absolute;
 }
@@ -395,20 +395,23 @@ a:hover{
 	left: 46%;
 	top: 250%;
 }
-.team-menu ul img{
+.team-menu ul img, .curator img{
 	width: 200px;
 	height: 200px;
 }
 .team-menu ul li{
+	margin: 0 5px;
 	margin-bottom: 8px;
 	display: inline-block;
 	opacity: 0;
 	transition: .5s ease;
 }
 .team-menu ul li img{
-	width: 90px; 
-	height: 70px; 
+	width: 80px; 
+	height: 80px; 
 	margin-bottom: 5px;
+	border-radius: 50%;
+	box-shadow: 1px 1px 3px black;
 }
 .team-menu ul li img:hover{
 	opacity: 0.8;
