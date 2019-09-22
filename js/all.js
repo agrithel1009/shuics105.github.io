@@ -10,7 +10,7 @@ $(document).ready(function() {
 	$('#topmenu a').click(function() {
 		$('#topmenu').slideUp(0);
 	});
-	$('.rightmenu a, #topmenu a').click(function(){
+	$('.rightmenu a, #topmenu a, .yes').click(function(){
 		event.preventDefault();
 		var target = $(this).attr('href');
 		var targetPos = $(target).offset().top;
@@ -50,7 +50,7 @@ $(document).ready(function() {
 			});
 			return false;
 		});
-		$block.find('a.next').click(function(){
+		$block.find('a.next, .read').click(function(){
 			$ul.stop(false,true).animate({'left':_left-_width},_animateSpeed, function(){
 				$ul.find('li:last').after($ul.find('li:first')).end().css('left', _left);
 			});
