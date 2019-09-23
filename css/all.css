@@ -96,13 +96,13 @@ a:hover{
 	width: 160px;
 	position: absolute;
 	top: 85%;
-	margin-left: 43%;
+	margin-left: 42%;
 }
 .inform{
 	display: none;
 }
 #intro, #team, #curation, #sponsor{
-	padding: 30px 70px;
+	padding: 30px 60px;
 	height: 100vh;
 }
 #curation p, #sponsor p{
@@ -117,7 +117,11 @@ a:hover{
 }
 #intro h2, #team h2, #curation h2, #sponsor h2{
 	text-align: right;
-	font-size: 24px;
+	font-size: 28px;
+	font-weight: bold;
+	border-bottom: 2px solid brown;
+	display: block;
+	width: 105px;
 }
 #intro h2, #team h2, #curation h2, #sponsor h2{
 	display: none;
@@ -406,13 +410,13 @@ a:hover{
 	line-height: 1.2;
 	font-size: 14px;
 	z-index: 1;
+	box-shadow: 1px 1px 3px black;
 }
 #intro{
 	padding: 30px 30px;
 }
 #team{
-	background: url(../img/);
-	background-size: cover;
+	background: white;
 	padding-bottom: 40px;
 	text-align: center;
 }
@@ -431,9 +435,10 @@ a:hover{
 }
 .curator3{
 	display: block;
-	width: 200px;
-	height: 200px;
-	margin: 10px auto;
+	width: 180px;
+	height: 180px;
+	margin: 0 auto;
+	margin-top: 30px;
 	border-radius: 50%;
 	box-shadow: 1px 1px 3px black;
 }
@@ -442,18 +447,22 @@ a:hover{
 }
 .team-menu h3{
 	display: block;
-	font-size: 24px;
+	font-size: 28px;
 }
 .team-menu ul{
 	position: static;
-	margin-bottom: 20px;
+	margin: 60px 0;
+	border: 2px solid black;
+	border-radius: 24px;
+	padding: 20px;
+	background: white;
 }
 .team-logo{
 	display: none;
 }
 .team-menu ul li img{
-	width: 260px; 
-	height: 260px;
+	width: 200px; 
+	height: 200px;
 	margin-bottom: 10px;
 }
 .team-menu ul li{
@@ -462,7 +471,7 @@ a:hover{
 }
 .team-menu ul li a{
 	color: black;
-	font-size: 22px;
+	font-size: 24px;
 	text-shadow: none;
 }
 .team-menu ul li img:hover{
@@ -490,16 +499,17 @@ a:hover{
 	display: block;
 	background: rgba(255, 255, 255, 0.8);
 	width: 250px;
-	height: 130px;
+	height: 200px;
 	text-align: left;
 	padding: 15px;
 	font-size: 18px;
 	position: relative;
 	margin: 0 auto;
-	top: 50%;
+	top: 35%;
+	line-height: 1.2;
 }
 #inform img{
-	margin-left: 32%;
+	margin-left: 33%;
 }
 #frame{
 	display: none;
@@ -545,15 +555,15 @@ a:hover{
 	background: url('../img/intro_2.png');
 	background-size: cover;
 }
-#intro h2, #team h2, #curation h2, #feedback h2, #sponsor h2{
-	text-align: center;
+#team h2{
+	margin-bottom: 40px;
 }
 .curator3{
 	width: 140px;
 	height: 140px;
 }
 .team-menu h3{
-	font-size: 22px;
+	font-size: 24px;
 }
 .team-menu ul li{
 	margin: 4px;

@@ -28,7 +28,7 @@ $(document).ready(function() {
 			}
 		});
 	});
-	$('#inform a').click(function(){
+	$('.wiggle').click(function(){
 		event.preventDefault();
 		$('html,body').animate({scrollTop: $('#intro').offset().top}, 1800);
 		return false;
