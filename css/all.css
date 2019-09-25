@@ -410,7 +410,6 @@ a:hover{
 	line-height: 1.2;
 	font-size: 14px;
 	z-index: 1;
-	box-shadow: 1px 1px 3px black;
 }
 #intro{
 	padding: 30px 30px;
