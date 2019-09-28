@@ -15,7 +15,7 @@
 .col-12 {width: 100%;}
 
 .content{
-	background: url(../img/map2.jpg) fixed;
+	background: url(../img/team_intro.png) fixed;
 	background-size: cover;
 	height: 100%;
 	padding-bottom: 40px;
@@ -63,30 +63,14 @@
 .web{
 	background: url('../img/work_web.png');
 }
-.web:hover{
-	background: url('../img/map.jpg');
-	background-size: contain;
-}
 .pdf{
 	background: url('../img/work_pdf.png');
-}
-.pdf:hover{
-	background: url('../img/map.jpg');
-	background-size: contain;
 }
 .fb{
 	background: url('../img/work_fb.png');
 }
-.fb:hover{
-	background: url('../img/map.jpg');
-	background-size: contain;
-}
 .ig{
 	background: url('../img/work_ig.png');
-}
-.ig:hover{
-	background: url('../img/map.jpg');
-	background-size: contain;
 }
 .team_mem{	
 	margin-bottom: 15px;

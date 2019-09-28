@@ -410,11 +410,9 @@ a:hover{
 	font-size: 14px;
 	z-index: 1;
 }
-#intro{
-	padding: 30px 30px;
-}
 #team{
-	background: white;
+	background: url('../img/team_intro.png');
+	background-size: cover;
 	padding-bottom: 40px;
 	text-align: center;
 }
@@ -438,22 +436,36 @@ a:hover{
 	margin: 0 auto;
 	margin-top: 30px;
 	border-radius: 50%;
-	box-shadow: 1px 1px 3px black;
+	box-shadow: 2px 2px 4px black;
 }
 .team-menu{
 	position: static;
 }
+.curator_m{
+	display: block;
+	border-radius: 20px;
+	padding: 40px;
+	border: 3px dashed #905D3A;
+	background: url('../img/team_ul1.png');
+	background-size: cover;
+}
 .team-menu h3{
 	display: block;
 	font-size: 28px;
+	width: 150px;
+	padding: 10px;
+	background: url('../img/h3.png') center;
+	background-size: cover;
+	margin: 0 auto;
 }
 .team-menu ul{
 	position: static;
 	margin: 60px 0;
-	border: 2px solid black;
-	border-radius: 24px;
+	border: 3px dashed #905D3A;
+	border-radius: 20px;
 	padding: 20px;
-	background: white;
+	background: url('../img/team_ul1.png');
+	background-size: cover;
 }
 .team-logo{
 	display: none;
@@ -509,6 +521,10 @@ a:hover{
 #inform img{
 	margin-left: 33%;
 }
+#intro{
+	background: url('../img/lawn-01.png');
+	background-size: cover;
+}
 #frame{
 	display: none;
 }
@@ -518,7 +534,7 @@ a:hover{
 	width: 300px;
 	height: 400px;
 	position: relative;
-	border: 10px solid brown;
+	box-shadow: 3px 3px 3px black;
 }
 .slide-m{
 	display: inline-block;
