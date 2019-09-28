@@ -1,0 +1,95 @@
+[class*="col-"] {
+  float: left;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.content{
+	background: url(../img/team_intro.png) fixed;
+	background-size: cover;
+	height: 100%;
+	padding-bottom: 40px;
+}
+.team_intro{
+	display: none;
+	font-size: 18px;
+	text-align: center;
+	padding: 60px;
+}
+.team_intro h4{
+	font-size: 22px; 
+	font-weight: bold;
+	margin-bottom: 20px; 
+}
+.team_title h3{
+	font-size: 38px; 
+	font-weight: bold; 
+	margin-bottom: 10px;
+}
+.c_photo{
+	width: 120px;
+	height: 120px;
+	background: white;
+	border-radius: 50%;
+	margin: 10px;
+	box-shadow: 2px 2px 3px black;
+}
+.c_intro{
+	display: inline-block;
+	margin-bottom: 10px;
+}
+.job{
+	color: brown;
+	line-height: 2;
+	font-size: 22px;
+}
+.name{
+	font-size: 20px;
+}
+.team_photo{
+	width: 300px; 
+	height: 200px;
+	margin-top: 5px;
+	margin-bottom: 30px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.team_teach{
+	margin-top: 60px;
+	font-size: 22px;
+}
+.back{
+	margin-top: 60px;
+}
+
+/*--------------------------------------------響應式網頁設定(平板)--------------------------------------------*/
+
+@media(max-width: 1040px)  {
+
+.content{
+	height: 100%;
+	padding-bottom: 0px;
+}
+.team_intro{
+	padding-top: 110px;
+}
+.teamclear{
+	clear: both;
+	padding-top: 40px;
+}
+}
+
+/*--------------------------------------------響應式網頁設定(手機)--------------------------------------------*/
+
+@media(max-width: 880px)  {
+}
