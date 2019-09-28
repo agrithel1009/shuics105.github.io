@@ -399,12 +399,11 @@ a:hover{
 .top{
 	display: block;
 	position: fixed;
-	bottom: 95px;
-	right: 25px;
+	bottom: 10px;
+	right: 0px;
 	background: #74A8D4;
-	width: 62px;
-	height: 62px;
-	border-radius: 50%;
+	width: 46px;
+	height: 60px;
 	color: white;
 	text-align: center;
 	line-height: 1.2;
