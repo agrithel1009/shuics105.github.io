@@ -89,14 +89,13 @@ a:hover{
 	background: url('../img/banner_l.png') fixed left;
 	background-size: cover;
 	height: 100vh;
-	position: relative;
 }
 #inform img{
 	height: 50px; 
 	width: 160px;
 	position: absolute;
 	top: 85%;
-	margin-left: 42%;
+	left: 50%;
 }
 .inform{
 	display: none;
@@ -258,6 +257,21 @@ a:hover{
 	width: 50px; 
 	font-size: 20px; 
 	padding: 10px;
+}
+.bye{
+	text-align: center;
+	font-size: 24px;
+	margin: 40px;
+	line-height: 1.5;
+	display: none;
+}
+.bye a{
+	display: block;
+	margin: 0 auto;
+	background: #EEC343;
+	width: 220px;
+	padding: 5px;
+	border-radius: 12px;
 }
 .prev, .next{
 	display: block;
@@ -429,6 +443,9 @@ a:hover{
 #intro{
 	height: 100vh;
 }
+#inform img{
+	left: 43%;
+}
 .curator3{
 	display: block;
 	width: 180px;
@@ -518,12 +535,12 @@ a:hover{
 	top: 35%;
 	line-height: 1.2;
 }
-#inform img{
-	margin-left: 33%;
-}
 #intro{
-	background: url('../img/lawn-01.png');
+	background: url('../img/lawn.png');
 	background-size: cover;
+}
+#inform img{
+	left: 34%;
 }
 #frame{
 	display: none;
