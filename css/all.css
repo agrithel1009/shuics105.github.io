@@ -86,7 +86,7 @@ a:hover{
 	float:left;
 }
 #inform{
-	background: url('../img/banner_l.png') fixed left;
+	background: url('../img/banner_ll.png') fixed center;
 	background-size: cover;
 	height: 100vh;
 }
@@ -413,7 +413,7 @@ a:hover{
 .top{
 	display: block;
 	position: fixed;
-	bottom: 10px;
+	bottom: 20px;
 	right: 0px;
 	background: #74A8D4;
 	width: 46px;
@@ -430,13 +430,13 @@ a:hover{
 	padding-bottom: 40px;
 	text-align: center;
 }
-#intro h2, #team h2, #curation h2, #feedback h2, #sponsor h2{
+#intro h2, #team h2, #curation h2, #sponsor h2{
 	text-align: left;
 }
 #team h2{
 	display: block;
 }
-#intro, #team, #curation, #feedback, #sponsor{
+#intro, #team, #curation, #sponsor{
 	height: 100%;
 	padding-top: 80px;
 }
@@ -534,6 +534,9 @@ a:hover{
 	margin: 0 auto;
 	top: 35%;
 	line-height: 1.2;
+}
+#inform{
+	background-position: left;
 }
 #intro{
 	background: url('../img/lawn.png');
