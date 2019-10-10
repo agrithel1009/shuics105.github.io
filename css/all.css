@@ -104,9 +104,6 @@ a:hover{
 	padding: 30px 60px;
 	height: 100vh;
 }
-#curation p, #sponsor p{
-	padding: 25px;
-}
 #curation{
 	background: #EEC343;
 }
@@ -128,10 +125,15 @@ a:hover{
 #curation, #sponsor{
 	text-align: center;
 }
-#curation img, #sponsor img{
+#curation img{
 	width: 60%;
 	height: auto;
 	margin: 25% 0;
+}
+#sponsor img{
+	width: 150px;
+	height: auto;
+	margin: 10px 30px;
 }
 #intro{
 	background: url('../img/poppy.png');
@@ -430,10 +432,10 @@ a:hover{
 	padding-bottom: 40px;
 	text-align: center;
 }
-#intro h2, #team h2, #curation h2, #sponsor h2{
+#intro h2, #team h2, #curation h2{
 	text-align: left;
 }
-#team h2{
+#team h2, #sponsor h2{
 	display: block;
 }
 #intro, #team, #curation, #sponsor{
@@ -608,5 +610,10 @@ a:hover{
 .team-menu ul li img{
 	width: 105px; 
 	height: 105px;
+}
+#sponsor img{
+	width: 100px;
+	height: auto;
+	margin: 10px 30px;
 }
 }
