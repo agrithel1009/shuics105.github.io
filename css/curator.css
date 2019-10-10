@@ -48,6 +48,15 @@
 	margin-right: auto;
 	margin-left: auto;
 }
+.msg{
+	margin: 10px auto;
+	width: 120px; 
+	height: 100px;
+	background: rgba(255, 255, 255, 0.8); 
+	border-radius: 12px;
+	text-align: left;
+	padding: 15px;
+}
 .team_teach{
 	margin-top: 60px;
 	font-size: 22px;
