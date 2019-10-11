@@ -416,15 +416,20 @@ a:hover{
 	display: block;
 	position: fixed;
 	bottom: 20px;
-	right: 0px;
+	right: 6px;
 	background: #74A8D4;
-	width: 46px;
-	height: 60px;
 	color: white;
 	text-align: center;
 	line-height: 1.2;
 	font-size: 14px;
 	z-index: 1;
+	padding: 15px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+#inform img{
+	left: 43%;
 }
 #team{
 	background: url('../img/team_intro.png');
@@ -444,9 +449,6 @@ a:hover{
 }
 #intro{
 	height: 100vh;
-}
-#inform img{
-	left: 43%;
 }
 .curator3{
 	display: block;
@@ -540,12 +542,12 @@ a:hover{
 #inform{
 	background-position: left;
 }
+#inform img{
+	left: 35%;
+}
 #intro{
 	background: url('../img/lawn.png');
 	background-size: cover;
-}
-#inform img{
-	left: 34%;
 }
 #frame{
 	display: none;
@@ -612,8 +614,8 @@ a:hover{
 	height: 105px;
 }
 #sponsor img{
-	width: 100px;
+	width: 80px;
 	height: auto;
-	margin: 10px 20px;
+	margin: 15px 15px;
 }
 }
