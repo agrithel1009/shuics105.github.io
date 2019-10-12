@@ -423,9 +423,7 @@ a:hover{
 	line-height: 1.2;
 	font-size: 14px;
 	z-index: 1;
-	padding-bottom: 15px;
-	height: 45px;
-	width: 60px;
+	padding: 10px;
 	border-radius: 50%;
 }
 .inform{
