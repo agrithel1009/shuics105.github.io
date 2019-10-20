@@ -352,6 +352,33 @@ a:hover{
 #sponsor div{
 	width: 100%;
 }
+.last{
+  visibility: hidden;
+  width: 320px;
+  background-color: white;
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -180px;
+  font-size: 20px;
+}
+.last::after{
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 6px;
+  border-style: solid;
+  border-color: white transparent transparent transparent;
+}
+.pulse:hover .last{
+  visibility: visible;
+}
 .footer{
 	display: none;
 }
