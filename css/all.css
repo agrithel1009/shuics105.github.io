@@ -606,6 +606,10 @@ a:hover{
 		background: url('../img/intro_2.png');
 		background-size: cover;
 	}
+	.prev, .next{
+	color: black;
+	background: none;
+	}
 	.yes{
 		background: #C34C2F; 
 		color:white; 
