@@ -33,11 +33,6 @@ $(document).ready(function() {
 		$('html,body').animate({scrollTop: $('#intro').offset().top}, 1800);
 		return false;
 	});
-	$('.pulse').click(function(){
-		event.preventDefault();
-		$('html,body').animate({scrollTop: $('#inform').offset().top}, 1800);
-		return false;
-	});
 	$(function(){
 		var $block = $('#frame'),
 			$slide = $block.find('.slide'),
