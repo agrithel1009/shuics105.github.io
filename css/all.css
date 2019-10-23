@@ -140,6 +140,9 @@ a:hover{
 	height: auto;
 	margin: 10px 30px;
 }
+.shoe{
+	width: 10px;
+}
 #intro{
 	background: url('../img/poppy.png');
 	background-size: cover;
