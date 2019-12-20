@@ -55,6 +55,7 @@
 	height: 200px;
 	margin-top: 5px;
 	margin-bottom: 30px;
+	box-shadow: 1px 1px 5px black;
 }
 .team_work{
 	margin-top: 40px;

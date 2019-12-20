@@ -50,12 +50,13 @@
 	font-size: 20px;
 }
 .team_photo{
-	width: 300px; 
-	height: 200px;
+	width: 600px; 
+	height: 400px;
 	margin-top: 5px;
 	margin-bottom: 30px;
 	margin-right: auto;
 	margin-left: auto;
+	box-shadow: 1px 1px 8px black;
 }
 .msg{
 	margin: 10px auto;
